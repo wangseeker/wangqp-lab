@@ -40,7 +40,6 @@ collections:
 
 # jekyll plugins
 plugins:
-  - jekyll-spaceship
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-feed
@@ -65,9 +64,3 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-
-# configure jekyll spaceship
-jekyll-spaceship:
-  mathjax-processor:
-    src:
-      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
