@@ -1,7 +1,26 @@
 {% assign button = include %}
 {% assign button = button | hash_default: site.data.types[include.type] %}
 
-{% if button.link or button.icon or button.text %}
+{% if include.type == "email" %}
+  <!-- 邮箱按钮：防爬虫，真实地址由 email-protect.js 在点击时还原 -->
+  <div class="button-wrapper">
+    <a
+      class="button"
+      data-mail-protected
+      data-mail-label="{{ button.text | default: "mailbox" | xml_escape }}"
+      data-style="{{ include.style }}"
+      {% if include.flip %}
+        data-flip
+      {% endif %}
+      aria-label="mailbox"
+    >
+      {% include icon.html icon=button.icon %}
+      {% if button.text and button.text != "" %}
+        <span>{{ button.text }}</span>
+      {% endif %}
+    </a>
+  </div>
+{% elsif button.link or button.icon or button.text %}
   <div class="button-wrapper">
     <a
       class="button"

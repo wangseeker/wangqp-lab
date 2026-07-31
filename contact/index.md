@@ -11,7 +11,7 @@ nav:
   include button.html
   type="email"
   text="mailbox"
-  link="wangqp7@mail.sysu.edu.cn"
+  link="mailbox"
 %}
 {%
   include button.html

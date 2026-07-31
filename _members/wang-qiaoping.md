@@ -8,7 +8,7 @@ aliases:
   - QP Wang
   - Wang QP
 links:
-  email: wangqp7@mail.sysu.edu.cn
+  email: mailbox
 ---
 
 **教授，博士生导师**，代谢与衰老实验室（Laboratory of Metabolism and Aging）负责人。
