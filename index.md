@@ -77,9 +77,11 @@
 
 ## 最新动态
 
-- **2025/12/23** [Advanced Science | 中山大学王巧平教授等团队揭示肥胖新机制——MTCH2通过抑制自噬阻碍脂肪产热]({{ "/news/2025/12/23/article-63.html" | relative_url }})
-- **2025/12/23** [Nature Protocols | 中山大学王巧平教授等团队一套系统性研发靶向解毒剂的完整方案]({{ "/news/2025/12/23/article-64.html" | relative_url }})
-- **2025/12/23** [Diabetologia | 中山大学王巧平团队破解糖尿病新机制！SEC16B基因被发现是调控血糖的关键"开关"]({{ "/news/2025/12/23/article-65.html" | relative_url }})
+<ul class="news-list">
+  <li><strong>2025-12-23</strong> <a href="{% link _posts/2025-12-23-article-63.md %}">Advanced Science 中山大学王巧平教授等团队揭示肥胖新机制——MTCH2通过抑制自噬阻碍脂肪产热</a></li>
+  <li><strong>2025-12-23</strong> <a href="{% link _posts/2025-12-23-article-64.md %}">Nature Protocols 中山大学王巧平教授等团队一套系统性研发靶向解毒剂的完整方案</a></li>
+  <li><strong>2025-12-23</strong> <a href="{% link _posts/2025-12-23-article-65.md %}">Diabetologia 中山大学王巧平团队破解糖尿病新机制！SEC16B基因被发现是调控血糖的关键“开关”</a></li>
+</ul>
 
 {%
   include button.html
