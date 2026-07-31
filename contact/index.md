@@ -10,7 +10,7 @@ nav:
 {%
   include button.html
   type="email"
-  text="wangqp7@mail.sysu.edu.cn"
+  text="mailbox"
   link="wangqp7@mail.sysu.edu.cn"
 %}
 {%
@@ -34,4 +34,4 @@ nav:
 
 课题组长期招聘博士后和研究员，欢迎生物学、药学、生物信息学等学科背景的人才加入！
 
-有意者请将个人简历发送至 <wangqp7@mail.sysu.edu.cn>，我们期待你的加入。
+有意者请将个人简历发送至 <mailbox>，我们期待你的加入。

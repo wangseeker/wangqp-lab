@@ -10,7 +10,7 @@ title: 王巧平教授简历
 
 
 - **地址：** 广东省深圳市光明区公常路66号中山大学深圳校区医学园东1-319
-- **电子邮件：** wangqp7@mail.sysu.edu.cn
+- **电子邮件：** mailbox
 - **实验室主页：** https://yxysz.sysu.edu.cn/wangqpgroup/zh-hans
 
 ## 职业概述
