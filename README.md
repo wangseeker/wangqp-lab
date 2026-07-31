@@ -1,13 +1,13 @@
 # 代谢与衰老实验室网站
 
-中山大学药学院（深圳）王巧平教授课题组官方网站，基于 [Greenelab Lab Website Template](https://github.com/greenelab/lab-website-template) 构建。
+中山大学药学院王巧平教授课题组官方网站。
 
 ## 网站结构
 
 | 路径 | 内容 |
 |---|---|
 | `index.md` | 首页：实验室简介、招募信息、最新动态 |
-| `research/index.md` | 研究方向：肥胖 / 味觉 / 衰老 + 代表性论文 |
+| `research/index.md` | 研究方向：肥胖  / 衰老 + 代表性论文 |
 | `team/index.md` | 团队成员（PI、博士后、研究生、毕业生） |
 | `contact/index.md` | 联系方式与地址 |
 | `_members/` | 成员个人页（每个成员一个 Markdown 文件） |
