@@ -54,7 +54,8 @@ nav:
 **2. 开发基于NAD通路的抗衰老药物**
 
 提高机体NAD的含量可以延缓衰老，而机体NAD的含量的维持主要依赖于NAD挽救途径通路，占NAD含量的90%。我们前期通过虚拟筛选40万个天然来源的分子库，发现和验证了一个全新的可以提高NAD量的小分子激动剂，目前正在进行分子改造工作。
-![[Pasted image 20260731225143.png]]
+
+![NAD通路抗衰老药物研发]({{ "/images/nad-pathway.png" | relative_url }})
 
 {% include section.html %}
 
