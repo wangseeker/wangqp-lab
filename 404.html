@@ -452,6 +452,8 @@
 
   <script src="/wangqp-lab/scripts/dark-mode.js"></script>
 
+  <script src="/wangqp-lab/scripts/email-protect.js"></script>
+
   <script src="/wangqp-lab/scripts/fetch-tags.js"></script>
 
   <script src="/wangqp-lab/scripts/search.js"></script>
@@ -615,16 +617,15 @@
 
 
 
+  <!-- 邮箱按钮：防爬虫，真实地址由 email-protect.js 在点击时还原 -->
   <div class="button-wrapper">
     <a
       class="button"
-      href="mailto:wangqp7@mail.sysu.edu.cn"
-      
-        data-tooltip="Email"
-      
+      data-mail-protected
+      data-mail-label="mailbox"
       data-style="bare"
       
-      aria-label="Email"
+      aria-label="mailbox"
     >
       <i class="icon fa-solid fa-envelope"></i>
       
