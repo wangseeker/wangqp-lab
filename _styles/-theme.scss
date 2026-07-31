@@ -1,61 +1,70 @@
 ---
 ---
 
-// colors — 深空霓虹主题（两套模式均为深色科技风）
+// ============================================================
+// Design System — 深色科技风（GitHub/Linear 式克制风格）
+// 原则：克制的色彩、清晰的层级、一致的间距、WCAG AA 对比度
+// ============================================================
+
+// Color Tokens — 亮色模式（本站默认观感为深色，两套保持同语言）
 [data-dark="false"] {
-  --primary: #00d4ff;
-  --secondary: #7c4dff;
-  --text: #e8eaf6;
-  --background: #0a0e1a;
-  --background-alt: #0f1526;
-  --light-gray: #1f2940;
-  --gray: #64748b;
-  --dark-gray: #cbd5e1;
-  --overlay: #00d4ff20;
+  --primary: #4cc2ff;            // 科技蓝（链接/强调）
+  --primary-hover: #79d2ff;
+  --secondary: #8b949e;          // 中性灰蓝（次要元素）
+  --text: #e6edf3;               // 主文字（对比度 > 12:1）
+  --text-muted: #8b949e;         // 次要文字（对比度 ~7:1）
+  --background: #0d1117;         // 页面背景
+  --background-alt: #161b22;     // 卡片/面板背景
+  --border: #30363d;             // 边框
+  --light-gray: #30363d;         // 分隔线（模板兼容）
+  --gray: #8b949e;
+  --dark-gray: #c9d1d9;
+  --overlay: rgba(1, 4, 9, 0.6);
 }
 [data-dark="true"] {
-  --primary: #00d4ff;
-  --secondary: #a78bfa;
-  --text: #f1f5f9;
-  --background: #060a14;
-  --background-alt: #0c1220;
-  --light-gray: #16213a;
-  --gray: #64748b;
-  --dark-gray: #cbd5e1;
-  --overlay: #7c4dff25;
+  --primary: #4cc2ff;
+  --primary-hover: #79d2ff;
+  --secondary: #8b949e;
+  --text: #f0f6fc;
+  --text-muted: #9198a1;
+  --background: #010409;
+  --background-alt: #0d1117;
+  --border: #21262d;
+  --light-gray: #21262d;
+  --gray: #8b949e;
+  --dark-gray: #d0d7de;
+  --overlay: rgba(1, 4, 9, 0.8);
 }
 
 :root {
-  // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
-  --code: "Roboto Mono", monospace;
+  // Typography
+  --title: "Barlow", "Inter", sans-serif;
+  --heading: "Barlow", "Inter", sans-serif;
+  --body: "Barlow", "Inter", sans-serif;
+  --code: "Roboto Mono", ui-monospace, monospace;
 
-  // font sizes
-  --large: 1.2rem;
-  --xl: 1.4rem;
+  // Type scale
+  --large: 1.15rem;
+  --xl: 1.35rem;
   --xxl: 1.6rem;
 
-  // font weights
-  --thin: 200;
+  // Weights
+  --thin: 300;
   --regular: 400;
   --semi-bold: 500;
   --bold: 600;
 
-  // text line spacing
-  --spacing: 2;
+  // Line spacing
+  --spacing: 1.8;
   --compact: 1.5;
 
-  // effects
+  // Effects — 克制的阴影层级（无霓虹发光）
   --rounded: 8px;
-  --shadow: 0 0 24px 0 var(--overlay);
-  --transition: 0.25s ease;
+  --shadow-sm: 0 1px 2px rgba(1, 4, 9, 0.4);
+  --shadow: 0 4px 12px rgba(1, 4, 9, 0.35);
+  --shadow-md: 0 8px 24px rgba(1, 4, 9, 0.45);
+  --transition: 0.2s ease;
 
-  // 科技感自定义变量
-  --glow-primary: 0 0 14px rgba(0, 212, 255, 0.45);
-  --glow-secondary: 0 0 14px rgba(124, 77, 255, 0.45);
-  --grid-line: rgba(0, 212, 255, 0.05);
-  --gradient: linear-gradient(90deg, #00d4ff, #7c4dff);
-  --card-border: rgba(0, 212, 255, 0.22);
+  // 语义 token（模板组件使用）
+  --shadow-token: var(--shadow);
 }

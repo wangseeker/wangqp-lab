@@ -14,10 +14,10 @@ header {
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-  background: rgba(10, 14, 26, 0.7);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--card-border);
-  box-shadow: 0 1px 0 rgba(0, 212, 255, 0.15);
+  background: rgba(13, 17, 23, 0.85);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
 
   @if $sticky {
     position: sticky !important;

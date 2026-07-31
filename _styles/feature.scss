@@ -17,8 +17,8 @@ $wrap: 800px;
   aspect-ratio: 3 / 2;
   border-radius: var(--rounded);
   overflow: hidden;
-  box-shadow: var(--shadow), 0 0 20px rgba(0, 212, 255, 0.15);
-  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
 }
 
 .feature-image img {
@@ -36,7 +36,7 @@ $wrap: 800px;
   text-align: center;
   font-family: var(--heading);
   font-weight: var(--semi-bold);
-  color: var(--primary);
+  color: var(--text);
 }
 
 .feature[data-flip] {

@@ -8,15 +8,11 @@ body {
   padding: 0;
   min-height: 100vh;
   background:
-    radial-gradient(ellipse 90% 55% at 50% -12%, rgba(13, 27, 58, 0.95) 0%, transparent 62%),
-    radial-gradient(ellipse 60% 40% at 88% 108%, rgba(124, 77, 255, 0.10) 0%, transparent 65%),
-    linear-gradient(var(--grid-line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px),
+    radial-gradient(ellipse 70% 40% at 50% -8%, rgba(76, 194, 255, 0.06) 0%, transparent 60%),
     var(--background);
-  background-size: 100% 100%, 100% 100%, 44px 44px, 44px 44px, 100% 100%;
-  background-attachment: fixed;
   color: var(--text);
   font-family: var(--body);
   text-align: center;
   line-height: var(--compact);
+  -webkit-font-smoothing: antialiased;
 }
