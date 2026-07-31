@@ -4,22 +4,23 @@
 // ============================================================
 // Design System — 浅色学术蓝（参考 Rosen Lab, UT Southwestern）
 // 白底 + 深学术蓝 #004C97 主导 + 灰阶 + 亮蓝点缀
+// 高对比度排版：正文对比 ≥14:1，弱文本 ≥4.6:1（WCAG AA）
 // ============================================================
 
-// 亮色模式（默认）— Rosen Lab 风格
+// 亮色模式（默认）
 [data-dark="false"] {
   --primary: #004c97;            // 深学术蓝（链接/按钮/强调）
-  --primary-hover: #1079bf;      // hover 亮蓝
-  --secondary: #5371b7;          // 蓝紫（次要元素）
-  --text: #333333;               // 正文深灰
-  --text-muted: #666666;         // 次要文字
+  --primary-hover: #0a5fb4;      // hover 提亮
+  --secondary: #3b6fb0;          // 协调蓝（次要元素）
+  --text: #1f2937;               // 正文深灰蓝黑（14.3:1）
+  --text-muted: #4b5563;         // 次要文字（7.5:1）
   --background: #ffffff;         // 页面背景（纯白）
-  --background-alt: #f2f2f2;     // 浅灰区块/卡片背景
-  --border: #e0e0e0;             // 细边框/分隔线
-  --light-gray: #e0e0e0;
-  --gray: #999999;
-  --dark-gray: #666666;
-  --overlay: rgba(0, 0, 0, 0.08);
+  --background-alt: #f6f8fa;     // 冷调浅灰区块/卡片
+  --border: #e5e7eb;             // 柔和边框/分隔线
+  --light-gray: #e5e7eb;
+  --gray: #6b7280;               // 弱文本（4.6:1 达标）
+  --dark-gray: #374151;
+  --overlay: rgba(15, 40, 80, 0.08);
 }
 // 暗色模式（备用）
 [data-dark="true"] {
@@ -38,16 +39,16 @@
 }
 
 :root {
-  // Typography — 系统字体栈（Open Sans 观感近似，中文稳定）
-  --title: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  --heading: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  --body: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  // Typography — 系统字体栈（PingFang SC 中文优先，稳定无外部依赖）
+  --title: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --heading: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --body: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
   --code: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 
-  // Type scale
-  --large: 1.15rem;
-  --xl: 1.35rem;
-  --xxl: 1.7rem;
+  // Type scale — 层级清晰：16 → 19 → 24 → 32
+  --large: 1.2rem;    // 19px  h3
+  --xl: 1.5rem;       // 24px  h2
+  --xxl: 2rem;        // 32px  h1
 
   // Weights
   --thin: 300;
@@ -55,14 +56,14 @@
   --semi-bold: 600;
   --bold: 700;
 
-  // Line spacing
-  --spacing: 1.8;
-  --compact: 1.5;
+  // Line spacing — 中文阅读舒适
+  --spacing: 1.75;
+  --compact: 1.65;
 
-  // Effects — 克制阴影
-  --rounded: 6px;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.14);
+  // Effects — 蓝调分层阴影（细腻不脏）
+  --rounded: 8px;
+  --shadow-sm: 0 1px 2px rgba(15, 40, 80, 0.06);
+  --shadow: 0 2px 8px rgba(15, 40, 80, 0.08), 0 8px 24px rgba(15, 40, 80, 0.06);
+  --shadow-md: 0 4px 12px rgba(15, 40, 80, 0.10), 0 16px 40px rgba(15, 40, 80, 0.08);
   --transition: 0.2s ease;
 }

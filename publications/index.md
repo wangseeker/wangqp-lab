@@ -19,6 +19,12 @@ nav:
 
 ### 代表性论文（第一/通讯作者）
 
+Li TT, Zhao XY, Zhang M, Weng ZF, Guo XR, Liu YF, Wang QP, Liang HH. NMI Regulates Adipose Adaptive Thermogenesis Through TLR4/IRF3 Signaling to Promote Obesity. Adv Sci 2026 Jun 2:e75921. doi: 10.1002/advs.75921. （**IF:****14.1****中科院****医学一区****，*********共同通讯**）
+
+Wang X, Shi R, Ji C, Li H, Jia Z, Tian X, Xie X, Wang Y, Wang QP.Integrative systems biology identifies SIRT1 as a senescence-related theranostic target in atherosclerosis and poliumoside as a natural activator. Front Pharmacol （**IF:5.4****中科院药学二区，*********最后通讯**）
+
+ Deng Y, Liang H, Wan AH, Liu C, Yan S, Li J, Xiao M, Zhou Q, Liu R, Zhang Z, Zhang H, Cheng H, Fu C, Yao Q, Fang J, Neumann S, Wang Q, Huang J, Wang Z, Wan G. Dual-system engineered bacteria and dendritic cells enable precise intratumoral IL-12 delivery and potent antitumor immunity. Cell Rep Med 2026 Jun 16;7(6):102801. doi: 10.1016/j.xcrm.2026.102801. （**IF:14.0** **中科院医学一区，*********共同通讯**）
+
 Xie D, Peng Y, Zhang S, Mai X, Wen W, Wang M, Wang QP, Sun J. TRPC6 governs brown adipose thermogenesis via a BMPR2-p38 MAPK signaling axis. Mol Metab 2026 106:102341. doi: 10.1016/j.molmet.2026.102341. （IF:6.6中科院医学二区top，*共同通讯）
 
 Li HL, Xu Y, Mo JS, Zhao XY, Zhong CL, Jia ZW, Wang XL, Zhao BC, Chen YM, Zheng KW, Zhang XL, Wang QP. Single intravitreal injection of lipid nanoparticles delivering circular mRNA of nicotinamide phosphoribosyltransferase protects against dry AMD. J Control Release 2026; 392:114691. doi: 10.1016/j.jconrel.2026.114691. （IF:11.5中科院医学一区top，*最后通讯）
