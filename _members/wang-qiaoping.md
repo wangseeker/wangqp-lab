@@ -1,6 +1,6 @@
 ---
 name: 王巧平
-image: images/photo.jpg
+image: images/wang-qiaoping.png
 role: principal-investigator
 affiliation: 中山大学药学院
 aliases:
