@@ -1,0 +1,9 @@
+[    1951ms] [WARNING] Allow attribute will take precedence over 'allowfullscreen'. @ https://labs.utsouthwestern.edu/rosen-lab:322
+[    4029ms] Error: [splide] null is invalid.
+    at assert (https://labs.utsouthwestern.edu/themes/custom/utswlabs_theme/assets/js/splide.js?tj0nbe:290:13)
+    at new _Splide (https://labs.utsouthwestern.edu/themes/custom/utswlabs_theme/assets/js/splide.js?tj0nbe:2995:7)
+    at https://labs.utsouthwestern.edu/themes/custom/utswlabs_theme/assets/js/splide.js?tj0nbe:3156:14
+[    4409ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://www.googletagmanager.com/gtm.js?id=GTM-WJS2Z72:0
+[    4576ms] Uncaught TypeError: You must pass either a valid element or a valid id.
+    at Player (https://player.vimeo.com/api/player.js:1:14714)
+    at <anonymous> (https://labs.utsouthwestern.edu/rosen-lab:297:19)

@@ -20,7 +20,7 @@ button {
   border: none;
   border-radius: var(--rounded);
   background: var(--primary);
-  color: #0d1117;
+  color: #ffffff;
   text-align: center;
   font: inherit;
   font-family: var(--heading);
@@ -33,7 +33,7 @@ button {
 
 .button:hover {
   background: var(--primary-hover);
-  color: #0d1117;
+  color: #ffffff;
 }
 
 .button[data-style="bare"] {
