@@ -60,6 +60,21 @@
 
 {% include section.html %}
 
+## 研究成果
+
+已发表论文 **50+ 篇**（以第一或通讯作者发表于 *Cell Metabolism*、*Nature Communications*、*Advanced Science*、*Nature Protocols*、*Cell Reports* 等期刊），授权及实审专利 **5 项**，覆盖肥胖、味觉、衰老及解毒药物研发等方向。
+
+{%
+  include button.html
+  link="publications"
+  text="查看完整论文与专利"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% include section.html %}
+
 ## 最新动态
 
 - **2025/12/23** [Diabetologia | 中山大学王巧平团队破解糖尿病新机制！SEC16B基因被发现是调控血糖的关键"开关"]({{ "/news/2025/12/23/article-65.html" | relative_url }})

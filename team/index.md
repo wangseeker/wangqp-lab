@@ -1,7 +1,7 @@
 ---
 title: 团队成员
 nav:
-  order: 2
+  order: 3
   tooltip: 认识我们的团队
 ---
 

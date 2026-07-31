@@ -1,7 +1,7 @@
 ---
 title: 最新动态
 nav:
-  order: 3
+  order: 4
   tooltip: 课题组新闻与成果
 ---
 
