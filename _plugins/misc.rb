@@ -1,5 +1,9 @@
 require 'liquid'
-require 'html-proofer'
+begin
+  require 'html-proofer'
+rescue LoadError
+  # html-proofer is optional; the proofer hook is disabled via `proofer: false` in _config.yaml
+end
 
 module Jekyll
   module MiscFilters
