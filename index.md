@@ -30,7 +30,7 @@
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/logo.png"
   title="加入我们"
   text=text
 %}
@@ -56,7 +56,7 @@
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/obesity-research.jpg"
   link="research"
   title="肥胖研究"
   text=text
@@ -103,7 +103,7 @@
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/aging-fly-lifespan-system.png"
   link="research"
   title="衰老研究"
   text=text

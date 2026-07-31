@@ -19,6 +19,8 @@ nav:
 
 课题组以果蝇为模式生物，通过全基因组功能性筛选（神经组织特异性 RNAi 基因沉默），筛选与人类代谢和肥胖相关的基因，并使用基因敲除小鼠进一步确定这些基因在哺乳动物中的功能，从而发现新的治疗肥胖的药物靶点，为肥胖治疗提供新手段。
 
+![肥胖研究]({{ "/images/obesity-research.jpg" | relative_url }})
+
 **相关论文：**
 - Chenxu Yan, Tianshu Zeng, ... Qiao-Ping Wang, ... & Yan-Chuan Shi. Peripheral-specific Y1 receptor antagonism increases thermogenesis and protects against diet-induced obesity. *Nat Commun* 2021;12:2622. [doi:10.1038/s41467-021-22925-3](https://doi.org/10.1038/s41467-021-22925-3)
 - Valsesia A\*, Wang QP\*, et al. Genome-wide gene-based analyses of weight loss interventions identify a potential role for NKX6.3 in metabolism. *Nat Commun* 2019;10:540. [doi:10.1038/s41467-019-08492-8](https://doi.org/10.1038/s41467-019-08492-8)（\*共同一作）
@@ -47,6 +49,8 @@ nav:
 **1. 研发果蝇的抗衰老实验室系统**
 
 果蝇因其生命周期短、与人类同源性高、易于操作等原因成为寿命研究的经典模式生物。通过对果蝇的研究，揭示衰老的生理和分子机制，为延长寿命提供了理论基础和干预措施。但是，寿命实验相对于其他研究领域的实验，周期长且繁琐，无法同时进行大规模的寿命实验，这在很大程度上限制了衰老研究的进展。为了提升果蝇寿命实验的效率，我们利用3D打印以及计算机算法创新性地开发了果蝇寿命实验系统，由果蝇寿命实验食物批量更换装置、成像装置以及计算机分析软件三部分组成。**该原型系统测试表明，与传统的方法相比，该系统可以提高****17****倍实验效率**。此外，该设备利用计算机识别果蝇，避免了繁琐的存活果蝇的计数工作，将研究人员从繁琐的实验中脱离出来。**总的来说，果蝇寿命实验设备能够极大提升果蝇寿命实验的效率，同时减少研究者的工作量，弥补了该领域设备的空白**。
+
+![果蝇寿命实验系统]({{ "/images/aging-fly-lifespan-system.png" | relative_url }})
 
 ![](https://yxysz.sysu.edu.cn/wangqpgroup/sites/default/files/inline-images/Screen%20Shot%202022-09-22%20at%2011.07.25.png)
 

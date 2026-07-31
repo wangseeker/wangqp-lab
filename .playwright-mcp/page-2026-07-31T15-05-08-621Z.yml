@@ -1,0 +1,91 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - link [ref=e11] [cursor=pointer]:
+          - /url: /wangqpgroup/zh-hans
+        - navigation [ref=e15]:
+          - link " 简体中文" [ref=e17] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e18]: 
+            - text: 简体中文
+      - generic [ref=e21]:
+        - generic:
+          - list:
+            - listitem [ref=e22]:
+              - link "Home" [ref=e23] [cursor=pointer]:
+                - /url: /wangqpgroup/zh-hans
+            - listitem [ref=e24]:
+              - link "Introduction" [ref=e25] [cursor=pointer]:
+                - /url: /wangqpgroup/zh-hans/basic/26
+            - listitem [ref=e26]:
+              - link "Research Interest" [ref=e28] [cursor=pointer]:
+                - /url: /wangqpgroup/zh-hans/research%20fields
+            - listitem [ref=e29]:
+              - link "Publications" [ref=e30] [cursor=pointer]:
+                - /url: /wangqpgroup/zh-hans/scientific%20achievements
+            - listitem [ref=e31]:
+              - link "Team Member" [ref=e32] [cursor=pointer]:
+                - /url: /wangqpgroup/zh-hans/team
+            - listitem [ref=e33]:
+              - link "Contact" [ref=e34] [cursor=pointer]:
+                - /url: /wangqpgroup/zh-hans/contact
+            - listitem [ref=e35]:
+              - link "Resume" [ref=e36] [cursor=pointer]:
+                - /url: /wangqpgroup/basic/55
+    - main [ref=e37]:
+      - article [ref=e39]:
+        - generic [ref=e41]:
+          - navigation [ref=e45]:
+            - heading "导航痕迹" [level=2] [ref=e46]
+            - list [ref=e47]:
+              - listitem [ref=e48]:
+                - link "Wang QP Lab" [ref=e49] [cursor=pointer]:
+                  - /url: /wangqpgroup/zh-hans
+              - listitem [ref=e50]:
+                - generic [ref=e51]: 
+              - listitem [ref=e52]:
+                - link "Research Interest" [ref=e53] [cursor=pointer]:
+                  - /url: /wangqpgroup/zh-hans/research%20fields
+              - listitem [ref=e54]:
+                - generic [ref=e55]: 
+              - listitem [ref=e56]:
+                - link "Aging" [ref=e57] [cursor=pointer]:
+                  - /url: /wangqpgroup/zh-hans/longevity
+              - listitem [ref=e58]:
+                - generic [ref=e59]: 
+              - listitem [ref=e60]: 衰老研究
+          - generic [ref=e61]:
+            - list [ref=e67]:
+              - listitem [ref=e68]:
+                - link "Obesity" [ref=e69] [cursor=pointer]:
+                  - /url: /wangqpgroup/zh-hans/metabolism
+              - listitem [ref=e70]:
+                - link "Taste" [ref=e71] [cursor=pointer]:
+                  - /url: /wangqpgroup/zh-hans/sweetener
+              - listitem [ref=e72]:
+                - link "Aging" [ref=e73] [cursor=pointer]:
+                  - /url: /wangqpgroup/zh-hans/longevity
+            - generic [ref=e75]:
+              - heading "衰老研究" [level=1] [ref=e79]
+              - generic [ref=e81]:
+                - paragraph [ref=e82]:
+                  - strong [ref=e85]: 1. 研发果蝇的抗衰老实验室系统
+                - paragraph [ref=e86]:
+                  - text: 果蝇因其生命周期短、与人类同源性高、易于操作等原因成为寿命研究的经典模式生物。通过对果蝇的研究，揭示衰老的生理和分子机制，为延长寿命提供了理论基础和干预措施。但是，寿命实验相对于其他研究领域的实验，周期长且繁琐，无法同时进行大规模的寿命实验，这在很大程度上限制了衰老研究的进展。为了提升果蝇寿命实验的效率，我们利用3D打印以及计算机算法创新性地开发了果蝇寿命实验系统，由果蝇寿命实验食物批量更换装置、成像装置以及计算机分析软件三部分组成。
+                  - strong [ref=e87]: 该原型系统测试表明，与传统的方法相比，该系统可以提高
+                  - strong [ref=e88]: "17"
+                  - strong [ref=e89]: 倍实验效率
+                  - text: 。此外，该设备利用计算机识别果蝇，避免了繁琐的存活果蝇的计数工作，将研究人员从繁琐的实验中脱离出来。
+                  - strong [ref=e90]: 总的来说，果蝇寿命实验设备能够极大提升果蝇寿命实验的效率，同时减少研究者的工作量，弥补了该领域设备的空白
+                  - text: 。
+                - paragraph [ref=e91]
+                - paragraph [ref=e92]
+                - paragraph [ref=e93]:
+                  - strong [ref=e94]:
+                    - generic [ref=e95]: 2. 开发基于NAD通路的抗衰老药物
+                - paragraph [ref=e97]: 提高机体NAD的含量可以延缓衰老，而机体NAD的含量的维持主要依赖于NAD挽救途径通路，占NAD含量的90%。我们前期通过虚拟筛选40万个天然来源的分子库，发现和验证了一个全新的可以提高NAD量的小分子激动剂，目前正在进行分子改造工作。
+                - paragraph [ref=e98]
+                - paragraph [ref=e99]: https://www.researchgate.net/publication/23989210_The_role_of_NAD_biosynthesis_in_plant_development_and_stress_response/figures?lo=1
+                - paragraph [ref=e100]
+  - text: 
