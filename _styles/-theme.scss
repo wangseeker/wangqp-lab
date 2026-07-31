@@ -37,11 +37,11 @@
 }
 
 :root {
-  // Typography
-  --title: "Barlow", "Inter", sans-serif;
-  --heading: "Barlow", "Inter", sans-serif;
-  --body: "Barlow", "Inter", sans-serif;
-  --code: "Roboto Mono", ui-monospace, monospace;
+  // Typography — 系统字体栈（中文显示稳定，无外部依赖）
+  --title: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --heading: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --body: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --code: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 
   // Type scale
   --large: 1.15rem;

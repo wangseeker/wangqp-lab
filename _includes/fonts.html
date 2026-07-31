@@ -1,17 +1,21 @@
-<!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-{% assign googlefonts = "_styles/-theme.scss" | file_read | google_fonts %}
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="{{ googlefonts }}" rel="stylesheet">
+<!-- 系统字体栈（零外部依赖，中文显示稳定，国内访问无墙问题） -->
+<style>
+  body, h1, h2, h3, h4, h5, h6, button, input, textarea {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro SC", "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
+  }
+  code, pre {
+    font-family: ui-monospace, "SF Mono", "Roboto Mono", Menlo, Consolas, monospace;
+  }
+</style>
 
-<!-- Font Awesome icons (load asynchronously due to size) -->
-{% assign fontawesome = "https://use.fontawesome.com/releases/v6.7.0/css/all.css" %}
+<!-- Font Awesome icons (国内 CDN: bootcdn，替代被墙的 use.fontawesome.com) -->
 <link
-  href="{{ fontawesome }}"
+  href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.7.0/css/all.min.css"
   rel="stylesheet"
   media="none"
   onload="this.removeAttribute('media'); this.onload = null;"
 />
 <noscript>
-  <link href="{{ fontawesome }}" rel="stylesheet">
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.7.0/css/all.min.css" rel="stylesheet">
 </noscript>
