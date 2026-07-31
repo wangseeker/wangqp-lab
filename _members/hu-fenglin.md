@@ -2,7 +2,7 @@
 name: 胡枫林
 image: images/photo.jpg
 role: master
-affiliation: 中山大学药学院（深圳）
+affiliation: 中山大学药学院
 aliases:
   - Feng-Lin Hu
   - Hu FL

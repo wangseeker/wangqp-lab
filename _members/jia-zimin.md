@@ -2,7 +2,7 @@
 name: 贾子玟
 image: images/photo.jpg
 role: master
-affiliation: 中山大学药学院（深圳）
+affiliation: 中山大学药学院
 aliases:
   - Zi-Wen Jia
   - Jia ZW

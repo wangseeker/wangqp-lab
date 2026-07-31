@@ -2,7 +2,7 @@
 name: 石润璐
 image: images/photo.jpg
 role: phd
-affiliation: 中山大学药学院（深圳）
+affiliation: 中山大学药学院
 aliases:
   - Run-Lu Shi
   - Shi RL

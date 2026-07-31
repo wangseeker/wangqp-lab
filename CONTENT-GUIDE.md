@@ -48,7 +48,7 @@
 name: 张三
 image: images/photo.jpg
 role: phd
-affiliation: 中山大学药学院（深圳）
+affiliation: 中山大学药学院
 ---
 
 2025 级博士研究生。研究方向为代谢与衰老。

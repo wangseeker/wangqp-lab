@@ -2,7 +2,7 @@
 name: 刘沛铎
 image: images/photo.jpg
 role: postdoc
-affiliation: 中山大学药学院（深圳）
+affiliation: 中山大学药学院
 aliases:
   - Pei-Duo Liu
   - Liu PD

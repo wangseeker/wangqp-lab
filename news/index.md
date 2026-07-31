@@ -13,7 +13,7 @@ nav:
 - **2025/12/23** [Nature Protocols | 中山大学王巧平教授等团队一套系统性研发靶向解毒剂的完整方案](https://yxysz.sysu.edu.cn/wangqpgroup/zh-hans/article/64)
 - **2025/12/23** [Advanced Science | 中山大学王巧平教授等团队揭示肥胖新机制——MTCH2通过抑制自噬阻碍脂肪产热](https://yxysz.sysu.edu.cn/wangqpgroup/zh-hans/article/63)
 - **2024/06/27** [Nature Communications | 中山大学王巧平教授等团队在Nature Communications发表了最新研究](https://yxysz.sysu.edu.cn/wangqpgroup/zh-hans/article/62)
-- **2024/06/27** [Phytotherapy Research | 药学院（深圳）王巧平教授团队在Phytotherapy Research上发表综述论文](https://yxysz.sysu.edu.cn/wangqpgroup/zh-hans/article/61)
+- **2024/06/27** [Phytotherapy Research | 药学院王巧平教授团队在Phytotherapy Research上发表综述论文](https://yxysz.sysu.edu.cn/wangqpgroup/zh-hans/article/61)
 - **2023/02/22** [MedComm | 二甲双胍和米拉贝隆联用能协同预防和治疗肥胖](https://yxysz.sysu.edu.cn/wangqpgroup/zh-hans/article/59)
 - **2023/02/11** [JGG | 中山大学王巧平团队利用营养几何框架理论解析饮食中蛋白质与碳水化合物平衡对果蝇甜味敏感性的影响](https://yxysz.sysu.edu.cn/wangqpgroup/zh-hans/article/58)
 - **2022/05/22** [JGG | 中山大学王巧平教授课题组揭示导致果蝇甜味敏感性增加的神经分子机制](https://yxysz.sysu.edu.cn/wangqpgroup/zh-hans/article/56)
