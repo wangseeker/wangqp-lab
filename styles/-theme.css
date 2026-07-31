@@ -1,16 +1,16 @@
 [data-dark=false] {
   --primary: #004c97;
-  --primary-hover: #1079bf;
-  --secondary: #5371b7;
-  --text: #333333;
-  --text-muted: #666666;
+  --primary-hover: #0a5fb4;
+  --secondary: #3b6fb0;
+  --text: #1f2937;
+  --text-muted: #4b5563;
   --background: #ffffff;
-  --background-alt: #f2f2f2;
-  --border: #e0e0e0;
-  --light-gray: #e0e0e0;
-  --gray: #999999;
-  --dark-gray: #666666;
-  --overlay: rgba(0, 0, 0, 0.08);
+  --background-alt: #f6f8fa;
+  --border: #e5e7eb;
+  --light-gray: #e5e7eb;
+  --gray: #6b7280;
+  --dark-gray: #374151;
+  --overlay: rgba(15, 40, 80, 0.08);
 }
 
 [data-dark=true] {
@@ -29,23 +29,23 @@
 }
 
 :root {
-  --title: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  --heading: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  --body: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --title: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --heading: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --body: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
   --code: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-  --large: 1.15rem;
-  --xl: 1.35rem;
-  --xxl: 1.7rem;
+  --large: 1.2rem;
+  --xl: 1.5rem;
+  --xxl: 2rem;
   --thin: 300;
   --regular: 400;
   --semi-bold: 600;
   --bold: 700;
-  --spacing: 1.8;
-  --compact: 1.5;
-  --rounded: 6px;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.14);
+  --spacing: 1.75;
+  --compact: 1.65;
+  --rounded: 8px;
+  --shadow-sm: 0 1px 2px rgba(15, 40, 80, 0.06);
+  --shadow: 0 2px 8px rgba(15, 40, 80, 0.08), 0 8px 24px rgba(15, 40, 80, 0.06);
+  --shadow-md: 0 4px 12px rgba(15, 40, 80, 0.10), 0 16px 40px rgba(15, 40, 80, 0.08);
   --transition: 0.2s ease;
 }
 
