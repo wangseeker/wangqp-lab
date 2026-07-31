@@ -1,7 +1,7 @@
 ---
 title: 联系我们
 nav:
-  order: 3
+  order: 4
   tooltip: 邮箱与地址
 ---
 
