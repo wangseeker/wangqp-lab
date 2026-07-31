@@ -44,6 +44,9 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
 
+# 文章 URL 规则（与「最新动态」栏目对应）
+permalink: /news/:year/:month/:day/:title.html
+
 # code block syntax highlighting
 highlighter: rouge
 
