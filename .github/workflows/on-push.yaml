@@ -1,0 +1,17 @@
+name: on-push
+run-name: on push to main
+
+on:
+  push:
+    branches:
+      - main
+
+  # run if user manually requests it
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-site:
+    uses: ./.github/workflows/build-site.yaml
