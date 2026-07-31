@@ -1,0 +1,52 @@
+[data-dark=false] {
+  --primary: #004c97;
+  --primary-hover: #1079bf;
+  --secondary: #5371b7;
+  --text: #333333;
+  --text-muted: #666666;
+  --background: #ffffff;
+  --background-alt: #f2f2f2;
+  --border: #e0e0e0;
+  --light-gray: #e0e0e0;
+  --gray: #999999;
+  --dark-gray: #666666;
+  --overlay: rgba(0, 0, 0, 0.08);
+}
+
+[data-dark=true] {
+  --primary: #4c9fd6;
+  --primary-hover: #79d2ff;
+  --secondary: #8b949e;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --background: #0d1117;
+  --background-alt: #161b22;
+  --border: #30363d;
+  --light-gray: #30363d;
+  --gray: #8b949e;
+  --dark-gray: #c9d1d9;
+  --overlay: rgba(1, 4, 9, 0.6);
+}
+
+:root {
+  --title: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --heading: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --body: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --code: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --large: 1.15rem;
+  --xl: 1.35rem;
+  --xxl: 1.7rem;
+  --thin: 300;
+  --regular: 400;
+  --semi-bold: 600;
+  --bold: 700;
+  --spacing: 1.8;
+  --compact: 1.5;
+  --rounded: 6px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.14);
+  --transition: 0.2s ease;
+}
+
+/*# sourceMappingURL=-theme.css.map */

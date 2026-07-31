@@ -1,0 +1,60 @@
+.card {
+  display: inline-flex;
+  justify-content: stretch;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  max-width: calc(100% - 20px - 20px);
+  margin: 20px;
+  background: var(--background-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--rounded);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  vertical-align: top;
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+
+.card:hover {
+  border-color: rgba(0, 76, 151, 0.35);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.card[data-style=small] {
+  width: 250px;
+}
+
+.card-image img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-text {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.card-text > * {
+  margin: 0 !important;
+}
+
+.card-title {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  color: var(--text);
+}
+
+.card-subtitle {
+  margin-top: -10px !important;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/*# sourceMappingURL=card.css.map */
