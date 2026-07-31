@@ -41,7 +41,7 @@
 
 {% capture text %}
 
-课题组以果蝇为模式生物，通过全基因组功能性筛选鉴定新的能量代谢调控基因，并利用基因敲除小鼠验证其在哺乳动物中的功能，致力于发现新的减肥药物靶点。
+课题组以果蝇为模式生物，通过全基因组功能性筛选鉴定新的能量代谢调控基因，并利用基因敲除小鼠验证其在哺乳动物中的功能，致力于发现新的减肥药物靶点；同时研究甜味味觉调控与能量代谢的关系，为饮食摄入和能量代谢研究提供基础理论。
 
 {%
   include button.html
@@ -59,30 +59,6 @@
   image="images/obesity-research.jpg"
   link="research"
   title="肥胖研究"
-  text=text
-%}
-
-{% capture text %}
-
-研究不同食物对甜味味觉的影响，揭示大脑内调控甜味味觉的神经元回路以及神经细胞内分子信号通路机制，为饮食摄入和能量代谢研究提供基础理论。
-
-{%
-  include button.html
-  link="research"
-  text="查看味觉研究方向"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="味觉研究"
-  flip=true
   text=text
 %}
 
@@ -106,6 +82,7 @@
   image="images/aging-fly-lifespan-system.png"
   link="research"
   title="衰老研究"
+  flip=true
   text=text
 %}
 
