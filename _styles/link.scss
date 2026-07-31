@@ -3,12 +3,13 @@
 
 a {
   color: var(--primary);
-  transition: color var(--transition);
+  transition: color var(--transition), text-shadow var(--transition);
   overflow-wrap: break-word;
 }
 
 a:hover {
   color: var(--text);
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.55);
 }
 
 a:not([href]) {

@@ -1,28 +1,28 @@
 ---
 ---
 
-// colors
+// colors — 深空霓虹主题（两套模式均为深色科技风）
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
-  --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
-  --overlay: #00000020;
+  --primary: #00d4ff;
+  --secondary: #7c4dff;
+  --text: #e8eaf6;
+  --background: #0a0e1a;
+  --background-alt: #0f1526;
+  --light-gray: #1f2940;
+  --gray: #64748b;
+  --dark-gray: #cbd5e1;
+  --overlay: #00d4ff20;
 }
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --dark-gray: #b0b0b0;
-  --overlay: #ffffff10;
+  --primary: #00d4ff;
+  --secondary: #a78bfa;
+  --text: #f1f5f9;
+  --background: #060a14;
+  --background-alt: #0c1220;
+  --light-gray: #16213a;
+  --gray: #64748b;
+  --dark-gray: #cbd5e1;
+  --overlay: #7c4dff25;
 }
 
 :root {
@@ -48,7 +48,14 @@
   --compact: 1.5;
 
   // effects
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
-  --transition: 0.2s ease;
+  --rounded: 8px;
+  --shadow: 0 0 24px 0 var(--overlay);
+  --transition: 0.25s ease;
+
+  // 科技感自定义变量
+  --glow-primary: 0 0 14px rgba(0, 212, 255, 0.45);
+  --glow-secondary: 0 0 14px rgba(124, 77, 255, 0.45);
+  --grid-line: rgba(0, 212, 255, 0.05);
+  --gradient: linear-gradient(90deg, #00d4ff, #7c4dff);
+  --card-border: rgba(0, 212, 255, 0.22);
 }

@@ -16,21 +16,29 @@ h6 {
 
 h1 {
   margin: 40px 0;
-  font-size: 1.6rem;
-  font-weight: var(--regular);
+  font-size: 1.7rem;
+  font-weight: var(--bold);
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 3px;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 12px rgba(0, 212, 255, 0.25));
 }
 
 h2 {
   font-size: 1.6rem;
   padding-bottom: 5px;
-  border-bottom: solid 1px var(--light-gray);
-  font-weight: var(--regular);
+  border-bottom: solid 1px var(--primary);
+  font-weight: var(--semi-bold);
+  color: var(--primary);
 }
 
 h3 {
   font-size: 1.5rem;
+  color: var(--secondary);
 }
 
 h4 {
@@ -47,5 +55,5 @@ h6 {
 
 :where(h1, h2, h3, h4, h5, h6) > .icon {
   margin-right: 1em;
-  color: var(--light-gray);
+  color: var(--primary);
 }
