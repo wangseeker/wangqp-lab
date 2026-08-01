@@ -19,7 +19,7 @@
   --overlay: rgba(15, 40, 80, 0.06);
   --highlight: inset 0 1px 1px rgba(255, 255, 255, 0.7);
   --glow-a: rgba(14, 116, 144, 0.05);
-  --glow-b: rgba(124, 58, 237, 0.04);
+  --glow-b: rgba(14, 116, 144, 0.04);
   --title-glow: none;
   --header-bg: rgba(255, 255, 255, 0.78);
 }
@@ -30,7 +30,7 @@
   --primary-soft: rgba(34, 211, 238, 0.12);
   --primary-soft-strong: rgba(34, 211, 238, 0.22);
   --primary-glow: rgba(34, 211, 238, 0.18);
-  --secondary: #a78bfa;
+  --secondary: #67e8f9;
   --text: #f4f4f5;
   --text-muted: #a1a1aa;
   --background: #050505;
@@ -44,8 +44,8 @@
   --dark-gray: #d4d4d8;
   --overlay: rgba(255, 255, 255, 0.06);
   --highlight: inset 0 1px 1px rgba(255, 255, 255, 0.08);
-  --glow-a: rgba(167, 139, 250, 0.09);
-  --glow-b: rgba(34, 211, 238, 0.07);
+  --glow-a: rgba(34, 211, 238, 0.08);
+  --glow-b: rgba(34, 211, 238, 0.05);
   --title-glow: 0 0 40px rgba(34, 211, 238, 0.15);
   --header-bg: rgba(5, 5, 5, 0.72);
 }
