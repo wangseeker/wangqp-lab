@@ -16,11 +16,11 @@ button {
   gap: 10px;
   max-width: calc(100% - 5px - 5px);
   margin: 5px;
-  padding: 8px 16px;
-  border: none;
-  border-radius: var(--rounded);
-  background: var(--primary);
-  color: #ffffff;
+  padding: 10px 22px;
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  border-radius: 999px;
+  background: rgba(34, 211, 238, 0.12);
+  color: #7dd3fc;
   text-align: center;
   font: inherit;
   font-family: var(--heading);
@@ -28,22 +28,32 @@ button {
   text-decoration: none;
   vertical-align: middle;
   appearance: none;
-  transition: background var(--transition), color var(--transition);
+  box-shadow: var(--highlight);
+  transition: background var(--transition), color var(--transition), border-color var(--transition), transform var(--transition-fast), box-shadow var(--transition);
 }
 
 .button:hover {
-  background: var(--primary-hover);
-  color: #ffffff;
+  background: rgba(34, 211, 238, 0.22);
+  border-color: rgba(34, 211, 238, 0.55);
+  color: #e0f7ff;
+  box-shadow: 0 0 24px rgba(34, 211, 238, 0.18), var(--highlight);
+}
+
+.button:active {
+  transform: scale(0.97);
 }
 
 .button[data-style="bare"] {
-  padding: 5px;
+  padding: 5px 8px;
   background: none;
   color: var(--primary);
+  border-color: transparent;
 
   &:hover {
     color: var(--primary-hover);
     background: none;
+    border-color: transparent;
+    box-shadow: none;
   }
 }
 

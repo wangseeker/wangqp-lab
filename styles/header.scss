@@ -3,7 +3,7 @@
 
 $logo-big: 48px;
 $logo: 32px;
-$big-padding: 32px;
+$big-padding: 40px;
 $collapse: 700px;
 $sticky: true;
 
@@ -13,11 +13,11 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--border);
-  box-shadow: var(--shadow-sm);
+  padding: 16px 24px;
+  background: rgba(5, 5, 5, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--hairline);
 
   @if $sticky {
     position: sticky !important;
@@ -29,6 +29,7 @@ header {
 header a {
   color: var(--text);
   text-decoration: none;
+  transition: color var(--transition-fast);
 }
 
 .home {
@@ -63,7 +64,7 @@ header a {
 
 .title {
   font-size: var(--large);
-  color: var(--text);
+  font-weight: var(--semi-bold);
 }
 
 .subtitle {
@@ -106,10 +107,13 @@ nav {
   gap: 10px;
   font-family: var(--heading);
   text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
 }
 
 nav > a {
-  padding: 5px;
+  padding: 6px 10px;
+  border-radius: 999px;
 }
 
 nav > a:hover {
@@ -164,6 +168,7 @@ header[data-big] {
 
   .title {
     font-size: var(--xxl);
+    font-weight: var(--bold);
   }
 
   .subtitle {
