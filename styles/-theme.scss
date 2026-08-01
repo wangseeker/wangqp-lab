@@ -2,58 +2,73 @@
 ---
 
 // ============================================================
-// Design System — Ethereal Glass（高端深色玻璃拟态）
-// OLED 黑 + 微妙青紫光晕 + 发丝级边框 + 玻璃卡片
-// 参考：Vercel / Linear / Awwwards 级深色质感
+// Design System — 双主题：白色高级版 / Ethereal Glass 深色
+// 亮色：Soft Structuralism（白底玻璃 + 深青点缀，昼夜可切换）
+// 暗色：Ethereal Glass（OLED 黑 + 青紫光晕）
 // ============================================================
 
-// 亮色模式（默认）— 本站以深色玻璃为默认观感
+// 亮色模式（默认）— 白色高级版
 [data-dark="false"] {
-  --primary: #22d3ee;            // 科技青（链接/按钮/强调）
-  --primary-hover: #67e8f9;      // hover 提亮
-  --secondary: #a78bfa;          // 紫罗兰（次级元素/光晕）
-  --text: #f4f4f5;               // 主文字（高对比 17:1）
-  --text-muted: #a1a1aa;         // 次要文字（7.6:1）
-  --background: #050505;         // OLED 纯黑背景
-  --background-alt: #0b0b0f;     // 卡片/面板底色
-  --glass: rgba(255, 255, 255, 0.04);       // 玻璃面
-  --glass-strong: rgba(255, 255, 255, 0.07); // 强化玻璃面
-  --hairline: rgba(255, 255, 255, 0.10);    // 发丝级边框
+  --primary: #0e7490;            // 深青（链接/按钮/强调）
+  --primary-hover: #155e75;      // hover 加深
+  --primary-soft: rgba(14, 116, 144, 0.10);   // 青色柔光面
+  --primary-soft-strong: rgba(14, 116, 144, 0.16);
+  --primary-glow: rgba(14, 116, 144, 0.12);   // hover 光晕
+  --secondary: #64748b;          // 灰蓝（次要元素）
+  --text: #1e293b;               // 正文深灰蓝（13:1）
+  --text-muted: #64748b;         // 次要文字（4.8:1）
+  --background: #ffffff;         // 纯白背景
+  --background-alt: #f8fafc;     // 浅灰蓝区块
+  --glass: rgba(255, 255, 255, 0.65);          // 玻璃面
+  --glass-strong: rgba(255, 255, 255, 0.88);   // 强化玻璃面
+  --hairline: rgba(15, 40, 80, 0.10);          // 发丝边框
+  --hairline-strong: rgba(15, 40, 80, 0.18);
+  --light-gray: rgba(15, 40, 80, 0.10);
+  --gray: #64748b;
+  --dark-gray: #334155;
+  --overlay: rgba(15, 40, 80, 0.06);
+  --highlight: inset 0 1px 1px rgba(255, 255, 255, 0.7); // 内高光
+  --glow-a: rgba(14, 116, 144, 0.05);   // 顶部青光晕
+  --glow-b: rgba(124, 58, 237, 0.04);   // 底部淡紫光晕
+  --title-glow: none;
+  --header-bg: rgba(255, 255, 255, 0.78);
+}
+
+// 暗色模式 — Ethereal Glass
+[data-dark="true"] {
+  --primary: #22d3ee;            // 科技青
+  --primary-hover: #67e8f9;
+  --primary-soft: rgba(34, 211, 238, 0.12);
+  --primary-soft-strong: rgba(34, 211, 238, 0.22);
+  --primary-glow: rgba(34, 211, 238, 0.18);
+  --secondary: #a78bfa;          // 紫罗兰
+  --text: #f4f4f5;               // 17:1
+  --text-muted: #a1a1aa;         // 7.6:1
+  --background: #050505;         // OLED 黑
+  --background-alt: #0b0b0f;
+  --glass: rgba(255, 255, 255, 0.04);
+  --glass-strong: rgba(255, 255, 255, 0.07);
+  --hairline: rgba(255, 255, 255, 0.10);
   --hairline-strong: rgba(255, 255, 255, 0.18);
   --light-gray: rgba(255, 255, 255, 0.10);
   --gray: #a1a1aa;
   --dark-gray: #d4d4d8;
   --overlay: rgba(255, 255, 255, 0.06);
-  --highlight: inset 0 1px 1px rgba(255, 255, 255, 0.08); // 内高光
-}
-// 暗色模式（备用）
-[data-dark="true"] {
-  --primary: #22d3ee;
-  --primary-hover: #67e8f9;
-  --secondary: #a78bfa;
-  --text: #fafafa;
-  --text-muted: #a1a1aa;
-  --background: #030303;
-  --background-alt: #0a0a0e;
-  --glass: rgba(255, 255, 255, 0.03);
-  --glass-strong: rgba(255, 255, 255, 0.06);
-  --hairline: rgba(255, 255, 255, 0.08);
-  --hairline-strong: rgba(255, 255, 255, 0.15);
-  --light-gray: rgba(255, 255, 255, 0.08);
-  --gray: #a1a1aa;
-  --dark-gray: #d4d4d8;
-  --overlay: rgba(255, 255, 255, 0.05);
-  --highlight: inset 0 1px 1px rgba(255, 255, 255, 0.06);
+  --highlight: inset 0 1px 1px rgba(255, 255, 255, 0.08);
+  --glow-a: rgba(167, 139, 250, 0.09);   // 紫光晕
+  --glow-b: rgba(34, 211, 238, 0.07);    // 青光晕
+  --title-glow: 0 0 40px rgba(34, 211, 238, 0.15);
+  --header-bg: rgba(5, 5, 5, 0.72);
 }
 
 :root {
-  // Typography — 系统字体栈（避免被墙的 web 字体，中文稳定）
+  // Typography — 系统字体栈（避免被墙的 web 字体）
   --title: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
   --heading: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
   --body: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
   --code: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 
-  // Type scale — 大气排版
+  // Type scale
   --large: 1.2rem;    // 19px  h3
   --xl: 1.6rem;       // 25.6px h2
   --xxl: 2.4rem;      // 38px   h1
@@ -69,12 +84,12 @@
   --spacing: 1.8;
   --compact: 1.65;
 
-  // Effects — 柔和环境阴影 + 内高光
+  // Effects
   --rounded: 14px;
   --rounded-lg: 20px;
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
-  --shadow-md: 0 16px 48px rgba(0, 0, 0, 0.55);
+  --shadow-sm: 0 1px 3px rgba(15, 40, 80, 0.08);
+  --shadow: 0 8px 30px rgba(15, 40, 80, 0.10);
+  --shadow-md: 0 16px 48px rgba(15, 40, 80, 0.14);
   --transition: 0.45s cubic-bezier(0.32, 0.72, 0, 1);
   --transition-fast: 0.25s cubic-bezier(0.32, 0.72, 0, 1);
 }

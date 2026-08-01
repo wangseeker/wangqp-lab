@@ -17,10 +17,10 @@ button {
   max-width: calc(100% - 5px - 5px);
   margin: 5px;
   padding: 10px 22px;
-  border: 1px solid rgba(34, 211, 238, 0.35);
+  border: 1px solid var(--primary-soft-strong);
   border-radius: 999px;
-  background: rgba(34, 211, 238, 0.12);
-  color: #7dd3fc;
+  background: var(--primary-soft);
+  color: var(--primary);
   text-align: center;
   font: inherit;
   font-family: var(--heading);
@@ -33,10 +33,10 @@ button {
 }
 
 .button:hover {
-  background: rgba(34, 211, 238, 0.22);
-  border-color: rgba(34, 211, 238, 0.55);
-  color: #e0f7ff;
-  box-shadow: 0 0 24px rgba(34, 211, 238, 0.18), var(--highlight);
+  background: var(--primary-soft-strong);
+  border-color: var(--primary);
+  color: var(--primary);
+  box-shadow: 0 0 24px var(--primary-glow), var(--highlight);
 }
 
 .button:active {
