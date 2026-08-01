@@ -21,7 +21,7 @@ nav:
 
 
 
-<div class="pub-list">
+<div class="pub-list" markdown="1">
 Li TT, Zhao XY, Zhang M, Weng ZF, Guo XR, Liu YF, Wang QP, Liang HH. NMI Regulates Adipose Adaptive Thermogenesis Through TLR4/IRF3 Signaling to Promote Obesity. Adv Sci 2026 Jun 2:e75921. doi: 10.1002/advs.75921. （**IF:****14.1****中科院****医学一区****，*********共同通讯**） [PubMed](https://pubmed.ncbi.nlm.nih.gov/42228052/)
 
 Wang X, Shi R, Ji C, Li H, Jia Z, Tian X, Xie X, Wang Y, Wang QP.Integrative systems biology identifies SIRT1 as a senescence-related theranostic target in atherosclerosis and poliumoside as a natural activator. Front Pharmacol （**IF:5.4****中科院药学二区，*********最后通讯**） [PubMed](https://pubmed.ncbi.nlm.nih.gov/42256401/)
@@ -86,7 +86,7 @@ Wang QP, Kawahara T, Horn D. Histone deacetylases play distinct roles in telome
 
 
 
-<div class="pub-list">
+<div class="pub-list" markdown="1">
 Li X, Song S, Kong X, Chen X, Zhao Z, Lin Z, Jia Y, Zhang Y, Luo HB, Wang QP, Zhang LH, Qian W, Deng Y.Regulation of Burkholderia cenocepacia virulence by the fatty acyl-CoA ligase DsfR as a response regulator of quorum sensing signal. Cell Rep. 2024 May 28;43(5):114223. doi: 10.1016/j.celrep.2024.114223 [PubMed](https://pubmed.ncbi.nlm.nih.gov/38748879/)
 
 Lin Z, Wan AH, Sun L, Liang H, Niu Y, Deng Y, Yan S, Wang QP, Bu X, Zhang X, Hu K, Wan G, He W. N6-methyladenosine demethylase FTO enhances chemo-resistance in colorectal cancer through SIVA1-mediated apoptosis. Mol Ther. 2023 Feb 1;31(2):517-534. doi: 10.1016/j.ymthe.2022.10.012. Epub 2022 Oct 28. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36307991/)
@@ -141,7 +141,7 @@ Lun ZR, Wang QP, Chen XG, Li AX, Zhu XQ. Streptococcus suis: an emerging zoono
 
 
 
-<div class="pub-list">
+<div class="pub-list" markdown="1">
 Wang QP, Lun ZR. Steptococcus suis: the threat remains. Emerging Infection 8 (In: Scheld WM, Hammer SM, Hughes JM editors). ASM Press 2009
 
 Wang QP, Lun ZR. Angiostrongylus cantonensis and human angiostrongyliasis. Oxford Textbook of Zoonoses: Biology, Clinical Practice, and Public Health Control (2 ed.). Oxford University press 2010

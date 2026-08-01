@@ -133,7 +133,7 @@ Biophysics Reports 青年编委 （2023-至今）
 
 
 
-<div class="pub-list">
+<div class="pub-list" markdown="1">
 Li TT, Zhao XY, Zhang M, Weng ZF, Guo XR, Liu YF, Wang QP, Liang HH. NMI Regulates Adipose Adaptive Thermogenesis Through TLR4/IRF3 Signaling to Promote Obesity. Adv Sci 2026 Jun 2:e75921. doi: 10.1002/advs.75921. （IF:14.1中科院医学一区，*共同通讯）
 
 Wang X, Shi R, Ji C, Li H, Jia Z, Tian X, Xie X, Wang Y, Wang QP.Integrative systems biology identifies SIRT1 as a senescence-related theranostic target in atherosclerosis and poliumoside as a natural activator. Front Pharmacol （IF:5.4中科院药学二区，*最后通讯）
@@ -286,7 +286,7 @@ Wang QP, Lun ZR. Angiostrongylus cantonensis and human angiostrongyliasis. Oxfor
 
 
 
-<div class="pub-list">
+<div class="pub-list" markdown="1">
 Xie D, Peng Y, Zhang S, Mai X, Wen W, Wang M, Wang QP, Sun J. TRPC6 governs brown adipose thermogenesis via a BMPR2-p38 MAPK signaling axis. Mol Metab 2026 106:102341. doi: 10.1016/j.molmet.2026.102341. （IF:6.6中科院医学二区top，*共同通讯）
 
 Li HL, Xu Y, Mo JS, Zhao XY, Zhong CL, Jia ZW, Wang XL, Zhao BC, Chen YM, Zheng KW, Zhang XL, Wang QP. Single intravitreal injection of lipid nanoparticles delivering circular mRNA of nicotinamide phosphoribosyltransferase protects against dry AMD. J Control Release 2026; 392:114691. doi: 10.1016/j.jconrel.2026.114691. （IF:11.5中科院医学一区top，*最后通讯）
@@ -403,7 +403,7 @@ Wang QP, Lun ZR. Angiostrongylus cantonensis and human angiostrongyliasis. Oxfor
 
 
 
-<div class="pub-list">
+<div class="pub-list" markdown="1">
 Li X, Song S, Kong X, Chen X, Zhao Z, Lin Z, Jia Y, Zhang Y, Luo HB, Wang QP, Zhang LH, Qian W, Deng Y.Regulation of Burkholderia cenocepacia virulence by the fatty acyl-CoA ligase DsfR as a response regulator of quorum sensing signal. Cell Rep. 2024 May 28;43(5):114223. doi: 10.1016/j.celrep.2024.114223
 
 Lin Z, Wan AH, Sun L, Liang H, Niu Y, Deng Y, Yan S, Wang QP, Bu X, Zhang X, Hu K, Wan G, He W. N6-methyladenosine demethylase FTO enhances chemo-resistance in colorectal cancer through SIVA1-mediated apoptosis. Mol Ther. 2023 Feb 1;31(2):517-534. doi: 10.1016/j.ymthe.2022.10.012. Epub 2022 Oct 28.
@@ -466,7 +466,7 @@ Wang QP, Lun ZR. Angiostrongylus cantonensis and human angiostrongyliasis. Oxfor
 
 
 
-<div class="pub-list">
+<div class="pub-list" markdown="1">
 Wang QP, Lun ZR. Steptococcus suis: the threat remains. Emerging Infection 8 (In: Scheld WM, Hammer SM, Hughes JM editors). ASM Press 2009
 
 Wang QP, Lun ZR. Angiostrongylus cantonensis and human angiostrongyliasis. Oxford Textbook of Zoonoses: Biology, Clinical Practice, and Public Health Control (2 ed.). Oxford University press 2010
