@@ -1,6 +1,12 @@
 ---
 ---
 
+<span class="eyebrow">Laboratory of Metabolism &amp; Aging</span>
+
+# 王巧平代谢与衰老实验室
+
+{% include section.html %}
+
 ## 研究方向
 
 {% capture text %}
