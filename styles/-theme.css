@@ -1,6 +1,35 @@
 [data-dark=false] {
+  --primary: #0e7490;
+  --primary-hover: #155e75;
+  --primary-soft: rgba(14, 116, 144, 0.10);
+  --primary-soft-strong: rgba(14, 116, 144, 0.16);
+  --primary-glow: rgba(14, 116, 144, 0.12);
+  --secondary: #64748b;
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --background: #ffffff;
+  --background-alt: #f8fafc;
+  --glass: rgba(255, 255, 255, 0.65);
+  --glass-strong: rgba(255, 255, 255, 0.88);
+  --hairline: rgba(15, 40, 80, 0.10);
+  --hairline-strong: rgba(15, 40, 80, 0.18);
+  --light-gray: rgba(15, 40, 80, 0.10);
+  --gray: #64748b;
+  --dark-gray: #334155;
+  --overlay: rgba(15, 40, 80, 0.06);
+  --highlight: inset 0 1px 1px rgba(255, 255, 255, 0.7);
+  --glow-a: rgba(14, 116, 144, 0.05);
+  --glow-b: rgba(124, 58, 237, 0.04);
+  --title-glow: none;
+  --header-bg: rgba(255, 255, 255, 0.78);
+}
+
+[data-dark=true] {
   --primary: #22d3ee;
   --primary-hover: #67e8f9;
+  --primary-soft: rgba(34, 211, 238, 0.12);
+  --primary-soft-strong: rgba(34, 211, 238, 0.22);
+  --primary-glow: rgba(34, 211, 238, 0.18);
   --secondary: #a78bfa;
   --text: #f4f4f5;
   --text-muted: #a1a1aa;
@@ -15,25 +44,10 @@
   --dark-gray: #d4d4d8;
   --overlay: rgba(255, 255, 255, 0.06);
   --highlight: inset 0 1px 1px rgba(255, 255, 255, 0.08);
-}
-
-[data-dark=true] {
-  --primary: #22d3ee;
-  --primary-hover: #67e8f9;
-  --secondary: #a78bfa;
-  --text: #fafafa;
-  --text-muted: #a1a1aa;
-  --background: #030303;
-  --background-alt: #0a0a0e;
-  --glass: rgba(255, 255, 255, 0.03);
-  --glass-strong: rgba(255, 255, 255, 0.06);
-  --hairline: rgba(255, 255, 255, 0.08);
-  --hairline-strong: rgba(255, 255, 255, 0.15);
-  --light-gray: rgba(255, 255, 255, 0.08);
-  --gray: #a1a1aa;
-  --dark-gray: #d4d4d8;
-  --overlay: rgba(255, 255, 255, 0.05);
-  --highlight: inset 0 1px 1px rgba(255, 255, 255, 0.06);
+  --glow-a: rgba(167, 139, 250, 0.09);
+  --glow-b: rgba(34, 211, 238, 0.07);
+  --title-glow: 0 0 40px rgba(34, 211, 238, 0.15);
+  --header-bg: rgba(5, 5, 5, 0.72);
 }
 
 :root {
@@ -53,9 +67,9 @@
   --compact: 1.65;
   --rounded: 14px;
   --rounded-lg: 20px;
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
-  --shadow-md: 0 16px 48px rgba(0, 0, 0, 0.55);
+  --shadow-sm: 0 1px 3px rgba(15, 40, 80, 0.08);
+  --shadow: 0 8px 30px rgba(15, 40, 80, 0.10);
+  --shadow-md: 0 16px 48px rgba(15, 40, 80, 0.14);
   --transition: 0.45s cubic-bezier(0.32, 0.72, 0, 1);
   --transition-fast: 0.25s cubic-bezier(0.32, 0.72, 0, 1);
 }
