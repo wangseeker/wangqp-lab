@@ -12,10 +12,23 @@
   width: 175px;
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
+  padding: 20px 16px;
+  background: linear-gradient(165deg, var(--glass-strong), var(--glass));
+  border: 1px solid var(--hairline);
+  border-radius: var(--rounded);
+  box-shadow: var(--shadow-sm), var(--highlight);
+  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+}
+
+.portrait:hover {
+  transform: translateY(-4px);
+  border-color: var(--hairline-strong);
+  box-shadow: var(--shadow), var(--highlight);
 }
 
 .portrait[data-style=small] {
   width: 100px;
+  padding: 12px 10px;
 }
 
 .portrait[data-style=tiny] {
@@ -35,9 +48,11 @@
   width: calc(20px + 10%);
   aspect-ratio: 1/1;
   border-radius: 999px;
-  background: var(--background);
-  box-shadow: var(--shadow);
+  background: var(--background-alt);
+  border: 1px solid var(--hairline);
+  box-shadow: var(--shadow-sm);
   transform: translate(14%, 14%);
+  color: var(--secondary);
 }
 
 .portrait[data-style=small] .icon {
@@ -51,11 +66,12 @@
 
 .portrait-image {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   aspect-ratio: 1/1;
   border-radius: 999px;
   object-fit: cover;
-  box-shadow: var(--shadow);
+  border: 2px solid var(--hairline-strong);
+  box-shadow: var(--shadow-sm);
 }
 
 .portrait[data-style=tiny] .portrait-image {
@@ -66,6 +82,7 @@
 .portrait-name {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  color: var(--text);
 }
 
 .portrait[data-style=tiny] .portrait-description,
