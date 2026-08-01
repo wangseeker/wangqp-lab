@@ -121,25 +121,41 @@
 
 /* 论文条目：hover 高亮 + 左边界线 */
 .pub-list p {
-  padding: 16px 18px;
+  position: relative;
+  padding: 14px 0 14px 32px;
   margin: 0;
-  border-left: 2px solid transparent;
-  border-bottom: 1px solid var(--hairline);
-  border-radius: 0 10px 10px 0;
+  border-left: 1px solid var(--hairline);
   font-size: 0.95rem;
   line-height: var(--spacing);
-  transition: background var(--transition-fast), border-color var(--transition-fast);
+  transition: background var(--transition-fast);
 }
 
-.pub-list p:last-child {
-  border-bottom: none;
+.pub-list p::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 24px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 0 8px var(--primary-glow);
 }
 
 .pub-list p:hover {
   background: var(--glass);
-  border-left-color: var(--primary);
 }
 
 .pub-list p a {
   font-size: 0.82rem;
+}
+
+/* 文章/研究正文图片：白底衬板（截图在深色背景下清晰显示） */
+main section > p > img {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+  display: block;
+  margin: 20px auto;
 }
