@@ -3,7 +3,7 @@
 
 {% include section.html %}
 
-# 研究方向
+## 研究方向
 
 课题组主要从事肥胖与衰老机理及药物开发研究，围绕能量代谢调控这一核心科学问题，构建"机制解析-靶点发现-转化应用"三位一体的研究体系。
 
@@ -58,7 +58,13 @@
 
 ## 研究成果
 
-已发表论文 **50+ 篇**（以第一或通讯作者发表于 *Cell Metabolism*、*Nature Communications*、*Advanced Science*、*Nature Protocols*、*Cell Reports* 等期刊），授权及实审专利 **5 项**，覆盖肥胖、味觉、衰老及解毒药物研发等方向。
+<div class="stat-row">
+  <div class="stat"><strong>50+</strong><span>已发表论文</span></div>
+  <div class="stat"><strong>5</strong><span>授权及实审专利</span></div>
+  <div class="stat"><strong>4579</strong><span>Google Scholar 引用</span></div>
+</div>
+
+已发表论文（以第一或通讯作者发表于 *Cell Metabolism*、*Nature Communications*、*Advanced Science*、*Nature Protocols*、*Cell Reports* 等期刊），覆盖肥胖、味觉、衰老及解毒药物研发等方向。
 
 {%
   include button.html
