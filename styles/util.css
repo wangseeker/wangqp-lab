@@ -153,4 +153,38 @@ main section > p > img {
   margin: 20px auto;
 }
 
+/* 研究成果统计条（首页板块统一视觉） */
+.stat-row {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  margin: 24px 0 32px;
+}
+
+.stat {
+  text-align: center;
+  padding: 20px 28px;
+  border-radius: var(--rounded);
+  background: var(--glass);
+  border: 1px solid var(--hairline);
+  min-width: 130px;
+}
+
+.stat strong {
+  display: block;
+  font-size: 1.9rem;
+  font-weight: var(--bold);
+  color: var(--primary);
+  line-height: 1.2;
+  font-family: var(--heading);
+}
+
+.stat span {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
 /*# sourceMappingURL=util.css.map */
