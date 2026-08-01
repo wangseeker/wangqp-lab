@@ -1,10 +1,6 @@
 ---
 ---
 
-<span class="eyebrow">Laboratory of Metabolism &amp; Aging</span>
-
-# 王巧平代谢与衰老实验室
-
 {% include section.html %}
 
 ## 研究方向
@@ -15,8 +11,8 @@
 
 {%
   include button.html
-  link="research"
-  text="查看肥胖研究方向"
+  link="research/obesity"
+  text="肥胖研究方向"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -27,7 +23,7 @@
 {%
   include feature.html
   image="images/obesity-research.jpg"
-  link="research"
+  link="research/obesity"
   title="肥胖研究"
   text=text
 %}
@@ -38,8 +34,8 @@
 
 {%
   include button.html
-  link="research"
-  text="查看衰老研究方向"
+  link="research/aging"
+  text="衰老研究方向"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -50,7 +46,7 @@
 {%
   include feature.html
   image="images/aging-fly-lifespan-system.png"
-  link="research"
+  link="research/aging"
   title="衰老研究"
   flip=true
   text=text
@@ -65,7 +61,7 @@
 {%
   include button.html
   link="publications"
-  text="查看完整论文与专利"
+  text="完整论文与专利"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -84,7 +80,7 @@
 {%
   include button.html
   link="news"
-  text="查看全部动态"
+  text="全部动态"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
