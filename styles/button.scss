@@ -36,6 +36,7 @@ button {
   background: var(--primary-soft-strong);
   border-color: var(--primary);
   color: var(--primary);
+  transform: translateY(-1px);
   box-shadow: 0 0 24px var(--primary-glow), var(--highlight);
 }
 

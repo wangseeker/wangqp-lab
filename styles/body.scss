@@ -11,7 +11,6 @@ body {
     radial-gradient(ellipse 55% 45% at 12% -8%, var(--glow-a) 0%, transparent 60%),
     radial-gradient(ellipse 50% 40% at 90% 110%, var(--glow-b) 0%, transparent 60%),
     var(--background);
-  background-attachment: fixed;
   color: var(--text);
   font-family: var(--body);
   font-size: 1rem;
