@@ -120,9 +120,15 @@ nav > a:hover {
   color: var(--primary);
 }
 
-header:not([data-big]) {
+/* 移动端折叠：所有 header 共用（含首页 data-big） */
+@mixin nav-collapse {
   @media (max-width: $collapse) {
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 16px 24px;
 
     .nav-toggle {
       display: flex;
@@ -138,6 +144,10 @@ header:not([data-big]) {
       width: 100%;
     }
   }
+}
+
+header:not([data-big]) {
+  @include nav-collapse;
 }
 
 header[data-big] {
@@ -174,4 +184,44 @@ header[data-big] {
   .subtitle {
     font-size: var(--large);
   }
+
+  /* 移动端：先重置 big 布局为紧凑条，再折叠导航 */
+  @media (max-width: $collapse) {
+    @if $sticky {
+      position: sticky;
+      top: 0;
+      z-index: 10 !important;
+    }
+
+    padding: 12px 20px;
+
+    .home {
+      flex-direction: row;
+      flex-grow: 1;
+      gap: 10px;
+    }
+
+    .logo {
+      height: $logo;
+      flex-shrink: 0;
+    }
+
+    .title-text {
+      flex-direction: row;
+      align-items: baseline;
+      text-align: left;
+      gap: 5px;
+    }
+
+    .title {
+      font-size: var(--large);
+      font-weight: var(--semi-bold);
+    }
+
+    .subtitle {
+      font-size: 0.85rem;
+    }
+  }
+
+  @include nav-collapse;
 }
