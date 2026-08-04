@@ -45,11 +45,11 @@ title: 衰老研究
 
 ## 代表论文
 
-1. **Wang QP**, et al. Neuronal Lamin regulates motor circuit integrity and controls motor function and lifespan. *Cell Stress* 2018. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31225490/)
-2. **Wang QP**, et al. Solon-Biet et al. *Nature Metabolism* 2019（合作）
-3. RagC Phosphorylation Autoregulates mTOR Complex. *EMBO J* 2018. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30552228/)
-4. Wang X, et al. Integrative systems biology identifies SIRT1 as a senescence-related theranostic target in atherosclerosis and poliumoside as a natural activator. *Front Pharmacol*
-5. Wang B, Wan AH, et al. Integrating Genome-Wide CRISPR Screens and In Silico Drug Profiling for Targeted Antidote Development. *Nat Protoc* 2024. [PubMed](https://pubmed.ncbi.nlm.nih.gov/38816517/)
+1. Oyston LJ, Lin YQ, Khuong TM, **Wang QP**, Lau MT, Clark T, Neely GG. Neuronal Lamin regulates motor circuit integrity and controls motor function and lifespan. *Cell Stress* 2018;2(9):225–232. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31225490/)
+2. Yang G, Humphrey SJ, Murashige DS, Francis D, **Wang QP**, Cooke KC, Neely GG, James DE. RagC Phosphorylation Autoregulates mTOR Complex 1. *EMBO J* 2018. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30552228/)
+3. Solon-Biet SM, Cogger VC, Pulpitel T, Wahl D, Clark X, Bagley EE, Gregoriou GC, Senior AM, **Wang QP**, et al. Branched-chain amino acids impact health and lifespan indirectly via amino acid balance and appetite control. *Nat Metab* 2019;1:532–545
+4. Wang X, Shi R, Ji C, Li H, Jia Z, Tian X, Xie X, Wang Y, **Wang QP**. Integrative systems biology identifies SIRT1 as a senescence-related theranostic target in atherosclerosis and poliumoside as a natural activator. *Front Pharmacol*. [PubMed](https://pubmed.ncbi.nlm.nih.gov/42256401/)
+5. Wang B, Xu Y, Wan AH, Wan G\*, **Wang QP**\*. Integrating Genome-Wide CRISPR Screens and In Silico Drug Profiling for Targeted Antidote Development. *Nat Protoc* 2024. [PubMed](https://pubmed.ncbi.nlm.nih.gov/38816517/)
 
 {% include section.html %}
 

@@ -29,10 +29,10 @@ title: 肥胖研究
 甜味感觉影响食物摄取，甜味味觉失调可导致肥胖或厌食。课题组揭示**甜味—能量双向调控机制**，破解代糖争议与代谢失衡矛盾：
 
 - **代糖与食欲**：Sucralose 通过 NPY 和神经元"禁食反应"促进食物摄入（*Cell Metabolism* 2016）；慢性 Sucralose 或 L-葡萄糖摄入不抑制进食（*Cell Metabolism* 2017）
-- **高糖重塑甜味**：高糖饮食重塑甜味感知，促进进食行为（*Cell Reports* 2020）
+- **高糖重塑甜味**：高糖饮食重塑甜味感知，促进进食行为（*Cell Reports* 2019）
 - **谷氨酰胺—肠脑轴**：谷氨酰胺通过肠道菌群—肠—脑轴增强果蝇甜味感知
 - **营养几何框架**：利用营养几何理论解析蛋白质—碳水化合物平衡对甜味敏感性（*JGG* 2023）、睡眠（*Nutr Metab* 2019 合作）的影响
-- **分子机制**：PGC1α、AMPK 调控蔗糖甜味敏化的神经分子机制（*Cell Reports* 2020；*JGG* 2022）
+- **分子机制**：PGC1α、AMPK 调控蔗糖甜味敏化的神经分子机制（*Cell Reports* 2020；*JGG* 2023）
 
 {% include section.html %}
 
@@ -46,12 +46,21 @@ title: 肥胖研究
 
 ## 代表论文
 
-1. Zhao XY, et al. MTCH2 Suppresses Thermogenesis by Regulating Autophagy in Adipose Tissue. *Adv Sci* 2025. [PubMed](https://pubmed.ncbi.nlm.nih.gov/42105768/)
-2. Li TT, et al. NMI Regulates Adipose Adaptive Thermogenesis Through TLR4/IRF3 Signaling to Promote Obesity. *Adv Sci* 2026. [PubMed](https://pubmed.ncbi.nlm.nih.gov/42228052/)
-3. **Wang QP**, et al. Sucralose Promotes Food Intake through NPY and a Neuronal Fasting Response. *Cell Metab* 2016;24(1):75–90
-4. Orthofer M, Valsesia A, Mägi R, **Wang QP**, et al. Identification of ALK in Thinness. *Cell* 2020;181:1–17. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32442405/)
-5. Valsesia A\*, **Wang QP**\*, et al. NKX6.3 in metabolism. *Nat Commun* 2019;10:540. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30710084/)
-6. Zhao XY, et al. Metformin and mirabegron on diet-induced obesity. *MedComm* 2023;4:e207. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36818016/)
+1. Zhao XY, Zhao BC, Li HL, Liu Y, Wang B, Li AQ, Zeng TS, Hui HX, Sun J, Cikes D, Gheldof N, Hager J, Mi JX, Laybutt DR, Deng YY, Shi YC\*, Neely GG\*, **Wang QP**\*. MTCH2 Suppresses Thermogenesis by Regulating Autophagy in Adipose Tissue. *Adv Sci* 2025. [PubMed](https://pubmed.ncbi.nlm.nih.gov/40051328/)
+2. Li TT, Zhao XY, Zhang M, Weng ZF, Guo XR, Liu YF, **Wang QP**, Liang HH. NMI Regulates Adipose Adaptive Thermogenesis Through TLR4/IRF3 Signaling to Promote Obesity. *Adv Sci* 2026. [PubMed](https://pubmed.ncbi.nlm.nih.gov/42228052/)
+3. Xie D, Peng Y, Zhang S, Mai X, Wen W, Wang M, **Wang QP**, Sun J. TRPC6 governs brown adipose thermogenesis via a BMPR2-p38 MAPK signaling axis. *Mol Metab* 2026. [PubMed](https://pubmed.ncbi.nlm.nih.gov/41747880/)
+4. Zhang RX, Li AQ, Zhao XY, Wang B, Yang ZC, Liu ZY, Ji C, Shi YC, Neely GG, **Wang QP**\*. Identification of SEC16B as a novel regulator of glucose homeostasis. *Diabetologia* 2025;68(10):2247–2262. [PubMed](https://pubmed.ncbi.nlm.nih.gov/40705078/)
+5. Valsesia A#, **Wang QP**#, Gheldof N, et al. Genome-wide gene-based analyses of weight loss interventions identify a potential role for NKX6.3 in metabolism. *Nat Commun* 2019;10:540. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30710084/)
+6. Zhang RX, Li SS, Li AQ, Liu ZY, Neely GG, **Wang QP**\*. dSec16 Acting in Insulin-like Peptide Producing Cells Controls Energy Homeostasis in Drosophila. *Life (Basel)* 2022;13(1):81. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36676030/)
+7. Orthofer M#, Valsesia A#, Mägi R#, **Wang QP**, et al. Identification of ALK in Thinness. *Cell* 2020;181:1–17. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32442405/)
+8. **Wang QP**, Lin YQ, Zhang L, Wilson YA, et al. Sucralose Promotes Food Intake through NPY and a Neuronal Fasting Response. *Cell Metab* 2016;24(1):75–90. [PubMed](https://pubmed.ncbi.nlm.nih.gov/28068223/)
+9. **Wang QP**, Simpson SJ, Herzog H, Neely GG\*. Chronic Sucralose or L-Glucose Ingestion Does Not Suppress Food Intake. *Cell Metab* 2017;26(2):279–280. [PubMed](https://pubmed.ncbi.nlm.nih.gov/28988822/)
+10. May CE, Vaziri A, Lin YQ, Grushko O, Khabiri M, **Wang QP**, Holme KJ, Pletcher SD, Freddolino PL, Neely GG, Dus M. High Dietary Sugar Reshapes Sweet Taste to Promote Feeding Behavior in Drosophila melanogaster. *Cell Rep* 2019;27(6):1675–1685. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31067455/)
+11. Li AQ, Li SS, Zhang RX, Zhao XY, Liu ZY, Hu Y, Wang B, Neely GG, Simpson SJ, **Wang QP**\*. Nutritional geometry framework of sucrose taste in Drosophila. *J Genet Genomics* 2023;50(4):233–240. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36773723/)
+12. **Wang QP**\#, Lin YQ, Lai ML, Su Z, et al. PGC1α Controls Sucrose Taste Sensitization in Drosophila. *Cell Rep* 2020;31(1):107480. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32268099/)
+13. Hu Y, Liu ZY, Li SS, Li AQ, **Wang QP**\*. AMPK controls sucrose taste sensitization in Drosophila. *J Genet Genomics* 2023;50(1):50–53. [PubMed](https://pubmed.ncbi.nlm.nih.gov/35577238/)
+14. Zhao XY#, Liu Y#, Zhang X#, Zhao BC, Burley G, Yang ZC, Luo Y, Li AQ, Zhang RX, Liu ZY, Shi YC\*, **Wang QP**\*. The combined effect of metformin and mirabegron on diet-induced obesity. *MedComm* 2023;4(2):e207. [PubMed](https://pubmed.ncbi.nlm.nih.gov/36818016/)
+15. Zhao XY, Wang JQ, Neely GG, Shi YC, **Wang QP**\*. Natural compounds as obesity pharmacotherapies. *Phytother Res* 2023. [PubMed](https://pubmed.ncbi.nlm.nih.gov/38083970/)
 
 {% include section.html %}
 
