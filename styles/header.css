@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   display: flex;
   justify-content: space-between;
@@ -108,9 +109,15 @@ nav > a:hover {
   color: var(--primary);
 }
 
+/* 移动端折叠：所有 header 共用（含首页 data-big） */
 @media (max-width: 700px) {
   header:not([data-big]) {
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 16px 24px;
   }
   header:not([data-big]) .nav-toggle {
     display: flex;
@@ -151,6 +158,60 @@ header[data-big] .title {
 }
 header[data-big] .subtitle {
   font-size: var(--large);
+}
+header[data-big] {
+  /* 移动端：先重置 big 布局为紧凑条，再折叠导航 */
+}
+@media (max-width: 700px) {
+  header[data-big] {
+    position: sticky;
+    top: 0;
+    z-index: 10 !important;
+    padding: 12px 20px;
+  }
+  header[data-big] .home {
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 10px;
+  }
+  header[data-big] .logo {
+    height: 32px;
+    flex-shrink: 0;
+  }
+  header[data-big] .title-text {
+    flex-direction: row;
+    align-items: baseline;
+    text-align: left;
+    gap: 5px;
+  }
+  header[data-big] .title {
+    font-size: var(--large);
+    font-weight: var(--semi-bold);
+  }
+  header[data-big] .subtitle {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 700px) {
+  header[data-big] {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 16px 24px;
+  }
+  header[data-big] .nav-toggle {
+    display: flex;
+  }
+  header[data-big] .nav-toggle:not(:checked) + nav {
+    display: none;
+  }
+  header[data-big] nav {
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

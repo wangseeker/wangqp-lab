@@ -11,6 +11,19 @@
   text-align: right;
 }
 
+/* sr-only：视觉隐藏但保留给屏幕阅读器/SEO（结构层级用） */
+.sr-only {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 /* skip-to-content：键盘用户可跳过导航直达正文 */
 .skip-link {
   position: absolute;
