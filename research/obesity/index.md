@@ -16,10 +16,10 @@ title: 肥胖研究
 
 - **MTCH2 调控脂肪产热**：MTCH2 通过抑制自噬阻碍脂肪产热——揭示肥胖新机制，为棕色/米色脂肪产热调控提供新靶点（*Advanced Science* 2025）
 - **NMI 促进肥胖**：NMI 通过 TLR4/IRF3 信号调控脂肪适应性产热，促进肥胖发生（*Advanced Science* 2026）
-- **TRPC6 与棕色脂肪**：TRPC6 经 BMPR2-p38 MAPK 信号轴调控棕色脂肪产热（*Theranostics*）
+- **TRPC6 与棕色脂肪**：TRPC6 经 BMPR2-p38 MAPK 信号轴调控棕色脂肪产热（*Mol Metab* 2026）
 - **NKX6.3 与减重**：大规模减重干预人群的基因水平分析发现 NKX6.3 在代谢中的潜在作用（*Nature Communications* 2019，共同一作）
 - **SEC16B 调控血糖稳态**：发现 SEC16B 是调控血糖的关键基因，为糖尿病机制研究提供新视角（*Diabetologia* 2025）
-- **dSec16 控制能量稳态**：果蝇 dSec16 在胰岛素样肽产生细胞中调控能量稳态（2025）
+- **dSec16 控制能量稳态**：果蝇 dSec16 在胰岛素样肽产生细胞中调控能量稳态（*Life (Basel)* 2022）
 - **"瘦"基因 ALK**：参与发现 ALK 调控交感神经抵抗体重增加（*Cell* 2020）
 
 {% include section.html %}

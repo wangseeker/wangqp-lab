@@ -27,7 +27,7 @@ title: 衰老研究
 机体 NAD 含量主要依赖 **NAD 挽救途径**维持（占 90%）。提高 NAD 含量可延缓衰老。课题组：
 
 - 通过**虚拟筛选 40 万个天然来源分子库**，发现并验证了一个全新的提高 NAD 量的小分子激动剂，目前正在进行分子改造
-- 进一步开发了**circular mRNA 递送 NAMPT** 技术：单次玻璃体内注射表达 NAMPT 的环状 mRNA 脂质纳米颗粒，可保护干性年龄相关性黄斑变性（AMD）——实现 NAD 通路的组织特异性补充（*Nanomedicine* 方向）
+- 进一步开发了**circular mRNA 递送 NAMPT** 技术：单次玻璃体内注射表达 NAMPT 的环状 mRNA 脂质纳米颗粒，可保护干性年龄相关性黄斑变性（AMD）——实现 NAD 通路的组织特异性补充（*J Control Release* 2026）
 - 基于 CRISPR 筛选建立**系统性研发靶向干预药物的方案**（*Nature Protocols* 2024）
 
 ![NAD通路抗衰老药物研发]({{ "/images/nad-pathway.png" | relative_url }})
