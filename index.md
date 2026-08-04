@@ -26,7 +26,7 @@
 
 {%
   include feature.html
-  image="images/obesity-research.jpg"
+  image="images/ai-obesity.png"
   link="research/obesity"
   title="肥胖研究"
   text=text
@@ -49,7 +49,7 @@
 
 {%
   include feature.html
-  image="images/aging-fly-lifespan-system.png"
+  image="images/ai-aging.png"
   link="research/aging"
   title="衰老研究"
   flip=true
