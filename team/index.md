@@ -11,19 +11,33 @@ nav:
 
 {% include section.html %}
 
-## 博士后与研究生
+## 博士后
 
-{% include list.html data="members" component="portrait" filter="role != 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
 
 {% include section.html %}
 
-## 已毕业研究生
+## 博士生
+
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
+{% include section.html %}
+
+## 硕士生
+
+{% include list.html data="members" component="portrait" filter="role == 'master'" %}
+
+{% include section.html %}
+
+## 已毕业研究生与出站博士后
+
+**博士后出站：** 赵薪苑
 
 **2025 年毕业：** 季臣（硕士）
 
 **2024 年毕业：** 王倍（博士）、李沙沙（博士）、李安琦（博士）、徐玉（硕士）
 
-**2023 年毕业：** 赵薪苑（博士）、杨智灿（硕士）、刘芷瑛（硕士）
+**2023 年毕业：** 杨智灿（硕士）、刘芷瑛（硕士）
 
 **2022 年毕业：** 张若馨（博士）、罗毅（硕士）、刘莹（硕士）、赵奔驰（硕士）
 
