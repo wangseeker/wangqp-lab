@@ -2,6 +2,9 @@
 
 中山大学药学院王巧平教授课题组官方网站。
 
+- 中文站点：https://wangseeker.github.io/wangqp-lab/
+- English site: https://wangseeker.github.io/wangqp-lab/en/
+
 ## 网站结构
 
 | 路径                  | 内容                        |
