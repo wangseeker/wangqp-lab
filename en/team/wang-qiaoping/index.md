@@ -22,7 +22,7 @@ Guangdong Distinguished Young Scholar · Sun Yat-sen University Yixian Scholar �
 
 ## Profile
 
-Qiao-Ping Wang is a "Hundred Talents Program" Professor and Doctoral Supervisor at the School of Pharmaceutical Sciences, Sun Yat-sen University. He serves as Vice Director of the Department of Pharmacology and Toxicology (since June 2026) and Director of the Laboratory of Metabolism and Aging, and is a recipient of the Guangdong Distinguished Young Scholars Fund. He received his Ph.D. from Sun Yat-sen University in 2010 (joint training at the London School of Hygiene & Tropical Medicine, 2008–2010) and completed postdoctoral training at the Neuroscience Division of the Garvan Institute of Medical Research, UNSW, and the Charles Perkins Centre, University of Sydney (2011–2017), focusing on the mechanisms and translation of obesity. He returned to China full-time in October 2017 and joined the School of Pharmaceutical Sciences (Shenzhen), Sun Yat-sen University.
+Qiao-Ping Wang is a "Hundred Talents Program" Professor and Doctoral Supervisor at the School of Pharmaceutical Sciences, Sun Yat-sen University. He serves as Vice Director of the Department of Pharmacology (since June 2026) and Director of the Laboratory of Metabolism and Aging, and is a recipient of the Guangdong Distinguished Young Scholars Fund. He received his Ph.D. from Sun Yat-sen University in 2010 (joint training at the London School of Hygiene & Tropical Medicine, 2008–2010) and completed postdoctoral training at the Neuroscience Division of the Garvan Institute of Medical Research, UNSW, and the Charles Perkins Centre, University of Sydney (2011–2017), focusing on the mechanisms and translation of obesity. He returned to China full-time in October 2017 and joined the School of Pharmaceutical Sciences (Shenzhen), Sun Yat-sen University.
 
 His research addresses the core pathological link of energy intake–expenditure imbalance by building a cross-species pipeline — human genetic data → model-organism screening → mouse functional validation → candidate drug discovery — forming a complete chain from target discovery and mechanistic dissection to drug development for obesity, diabetes and metabolic diseases. He has published more than 50 papers, 25 of them as first or corresponding author (including co-first and co-corresponding authorship), and has led 3 National Natural Science Foundation of China projects and 11 projects in total (national, provincial/municipal and industry), with cumulative funding of approximately RMB 9 million.
 
@@ -36,7 +36,7 @@ His research addresses the core pathological link of energy intake–expenditure
 
 - 2017.10–present　Professor ("Hundred Talents Program"), Doctoral Supervisor, School of Pharmaceutical Sciences, Sun Yat-sen University; Director, Laboratory of Metabolism and Aging
 - 2022.01–2026.05　Director, Department of Pharmacology and Toxicology, School of Pharmaceutical Sciences (Shenzhen), Sun Yat-sen University
-- 2026.06–present　Vice Director, Department of Pharmacology and Toxicology, School of Pharmaceutical Sciences, Sun Yat-sen University
+- 2026.06–present　Vice Director, Department of Pharmacology, School of Pharmaceutical Sciences, Sun Yat-sen University
 - 2021.04–present　Secretary, Faculty Party Branch of Pharmacology, Sun Yat-sen University
 - 2016.10–2017.09　Postdoctoral Researcher, Charles Perkins Centre, University of Sydney
 - 2012.05–2016.02　Lecturer (Conjoint Associate Lecturer), School of Medical Sciences, UNSW
