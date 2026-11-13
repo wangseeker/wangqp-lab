@@ -17,6 +17,11 @@
   {% assign title = nil %}
 {% endif %}
 
+{% assign schema_name = title %}
+{% if schema_name == nil or schema_name == "" %}
+  {% assign schema_name = site_title %}
+{% endif %}
+
 {% assign title = title | xml_escape %}
 
 {% assign fulltitle = "" | split: "," %}
@@ -36,23 +41,23 @@
     {{ site_subtitle }}. {{ description }}
   {%- endcapture %}
 {% endif %}
-{% capture url -%}
-  {{ site.url }}{{ site.baseurl }}
-{%- endcapture %}
 
 {% assign description = description | xml_escape %}
 
 {% assign png = "images/icon.png" | file_exists %}
 {% assign jpg = "images/icon.jpg" | file_exists %}
 {% assign icon = png | default: jpg | relative_url %}
+{% assign icon_abs = site.url | append: icon %}
 
 {% assign jpg = "images/share.jpg" | file_exists %}
 {% assign png = "images/share.png" | file_exists %}
 {% assign share = jpg | default: png | relative_url %}
+{% assign share_abs = site.url | append: share %}
 
 {% assign published = page.date | date_to_xmlschema %}
 {% assign updated = page.last_modified_at | date_to_xmlschema | default: published %}
 
+{% assign page_url = page.url | absolute_url %}
 {% assign feed = "feed.xml" | absolute_url %}
 
 <meta charset="utf-8">
@@ -60,23 +65,25 @@
 
 <title>{{ fulltitle }}</title>
 
+<link rel="canonical" href="{{ page_url }}">
 <link rel="icon" href="{{ icon }}">
 
 <meta name="title" content="{{ title }}">
 <meta name="description" content="{{ description }}">
 
 <meta property="og:title" content="{{ title }}">
+<meta property="og:site_name" content="{{ site_title | xml_escape }}">
 <meta property="og:site_title" content="{{ site_title | xml_escape }}">
 <meta property="og:description" content="{{ description }}">
-<meta property="og:url" content="{{ url }}">
-<meta property="og:image" content="{{ share }}">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:image" content="{{ share_abs }}">
 <meta property="og:locale" content="{% if lang == 'en' %}en_US{% else %}zh_CN{% endif %}">
 
 <meta property="twitter:title" content="{{ title }}">
 <meta property="twitter:description" content="{{ description }}">
-<meta property="twitter:url" content="{{ url }}">
+<meta property="twitter:url" content="{{ page_url }}">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="{{ share }}">
+<meta property="twitter:image" content="{{ share_abs }}">
 
 {% comment %} 中英文互链（hreflang），只有声明了 alt_url 的页面才会输出 {% endcomment %}
 {% if page.alt_url %}
@@ -111,14 +118,16 @@
     {% else %}
       "@type": "WebSite",
     {% endif %}
-    "name": "{{ title }}",
+    "name": "{{ schema_name | xml_escape }}",
     "description": "{{ description }}",
     "headline": "{{ title }}",
+    "inLanguage": "{% if lang == 'en' %}en{% else %}zh-CN{% endif %}",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "{{ icon }}" }
+      "name": "{{ site_title | xml_escape }}",
+      "logo": { "@type": "ImageObject", "url": "{{ icon_abs }}" }
     },
-    "url": "{{ url }}"
+    "url": "{{ page_url }}"
   }
 </script>
 

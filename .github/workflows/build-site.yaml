@@ -47,3 +47,8 @@ jobs:
           folder: _site
           clean-exclude: ${{ env.PREVIEWS_FOLDER }}
           force: false
+
+      - name: Submit URLs to IndexNow
+        run: |
+          sleep 15
+          bash tools/indexnow.sh _site/sitemap.xml || true
