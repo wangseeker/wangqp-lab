@@ -19,7 +19,11 @@ permalink: /en/team/
 {% for entry in group.members %}
 {% assign member = site.members | where: "slug", entry.slug | first %}
 <div class="portrait-wrapper">
+{% if entry.cv_url %}
+<a class="portrait" href="{{ entry.cv_url | relative_url }}" aria-label="{{ entry.name }} — curriculum vitae">
+{% else %}
 <div class="portrait">
+{% endif %}
 {% if member.role and site.data.types[member.role] %}
 {% assign role_icon = site.data.types[member.role].icon %}
 {% include icon.html icon=role_icon %}
@@ -28,7 +32,7 @@ permalink: /en/team/
 <span class="portrait-name">{{ entry.name }}</span>
 <span class="portrait-description">{{ entry.bio }}</span>
 <span class="portrait-affiliation">{{ affiliation }}</span>
-</div>
+{% if entry.cv_url %}</a>{% else %}</div>{% endif %}
 </div>
 {% endfor %}
 {% endfor %}

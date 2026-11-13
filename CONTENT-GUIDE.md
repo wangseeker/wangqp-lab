@@ -35,6 +35,7 @@
 - 团队页的英文姓名和身份在 `_data/members_en.yaml`；照片、角色（`role`）仍以 `_members/` 里的中文成员文件为准。
 - 英文新闻页 `en/news/index.md` 只放英文标题，链接回中文原文；新增动态时中文、英文两边各加一条。
 - 英文站名、简介在 `_config.yaml` 的 `title-en` / `subtitle-en` / `description-en`，改这里会同时更新所有英文页的顶部标题和浏览器标题。
+- 王巧平老师的中文简历在 `_members/wang-qiaoping.md`，英文简历在 `en/team/wang-qiaoping/index.md`，两页通过 `alt_url` 互链；英文团队页的 PI 卡片会直接链到英文简历页。
 
 ## 三、常见操作（照抄改数字即可）
 
