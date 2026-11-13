@@ -32,6 +32,9 @@
     - slug: wang-xiaolong
       name: Xiao-Long Wang
       bio: "PhD Student (2022)"
+    - slug: hu-fenglin
+      name: Feng-Lin Hu
+      bio: "PhD Student"
 
 - role: master
   label: Master's Students
@@ -39,12 +42,9 @@
     - slug: hou-shutong
       name: Shu-Tong Hou
       bio: "Master's Student (2025)"
-    - slug: hu-fenglin
-      name: Feng-Lin Hu
-      bio: "Master's Student (2024)"
     - slug: huang-xiao
       name: Xiao Huang
       bio: "Master's Student (2025)"
-    - slug: jia-zimin
-      name: Zi-Wen Jia
-      bio: "Master's Student (2023)"
+    - slug: wang-ziyi
+      name: Zi-Yi Wang
+      bio: "Master's Student (2026)"

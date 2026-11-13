@@ -43,6 +43,8 @@ permalink: /en/team/
 
 **Former postdocs:** Xin-Yuan Zhao
 
+**2026:** Zi-Wen Jia (Master's)
+
 **2025:** Chen Ji (Master's)
 
 **2024:** Bei Wang (PhD), Sha-Sha Li (PhD), An-Qi Li (PhD), Yu Xu (Master's)
