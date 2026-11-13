@@ -1,0 +1,26 @@
+# Wang QP Lab — Laboratory of Metabolism and Aging
+
+> Laboratory of Prof. Qiao-Ping Wang at the School of Pharmaceutical Sciences, Sun Yat-sen University (Shenzhen). We study the mechanisms of obesity, taste perception, aging and sleep, with a focus on energy-metabolism regulation and anti-aging drug discovery.
+
+## Core pages
+
+- [Home (中文)](https://wangseeker.github.io/wangqp-lab/): 实验室简介、研究方向、成果与最新动态
+- [English home](https://wangseeker.github.io/wangqp-lab/en/): lab overview in English
+- [Research](https://wangseeker.github.io/wangqp-lab/research/): obesity and aging research programs
+- [Publications](https://wangseeker.github.io/wangqp-lab/publications/): peer-reviewed papers and patents
+- [Team](https://wangseeker.github.io/wangqp-lab/team/): principal investigator, postdocs and students
+- [News](https://wangseeker.github.io/wangqp-lab/news/): research highlights and lab news
+- [Contact](https://wangseeker.github.io/wangqp-lab/contact/): email and address
+- [PI curriculum vitae (English)](https://wangseeker.github.io/wangqp-lab/en/team/wang-qiaoping/): full CV and publication list
+
+## About
+
+- Principal Investigator: Qiao-Ping Wang (王巧平), Professor and Doctoral Supervisor
+- Affiliation: School of Pharmaceutical Sciences, Sun Yat-sen University, Shenzhen, China
+- Research areas: energy homeostasis and glucose metabolism; target discovery and drug development for metabolic diseases; neurobiology of taste and feeding; functional genomics and AI-assisted drug discovery
+- Selected journals: Cell Metabolism, Nature Communications, Nature Protocols, Advanced Science, Cell Reports, Diabetologia
+
+## Contact
+
+- Email: wangqp7@mail.sysu.edu.cn
+- Address: Room East-319, Medical Building, Shenzhen Campus of Sun Yat-sen University, Guangming, Shenzhen 518017, China

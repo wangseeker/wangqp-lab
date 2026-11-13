@@ -72,3 +72,10 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+  - SEO-GUIDE.md
+
+# search engine verification codes (fill after registering the site)
+verification:
+  google: ""
+  bing: ""
+  baidu: ""
