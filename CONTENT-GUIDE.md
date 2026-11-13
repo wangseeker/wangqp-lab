@@ -24,6 +24,17 @@
 | 联系我们 | `contact/index.md` |
 | 站点标题、副标题、邮箱 | `_config.yaml` |
 | 图片（logo、成员照片等） | `images/` 文件夹 |
+| 英文版页面 | `en/` 文件夹（结构同中文） |
+| 英文版成员姓名/身份 | `_data/members_en.yaml` |
+
+## 二·补充、英文版（/en/）怎么改
+
+- 英文页都在 `en/` 文件夹，和中文页一一对应：`en/index.md`（首页）、`en/research/index.md`、`en/publications/index.md`、`en/team/index.md`、`en/news/index.md`、`en/contact/index.md`。
+- 每个中英文页的 front matter 都有 `alt_url`，指向另一种语言的同一页；页面顶部的「EN / 中文」按钮就是靠它跳转。**新增或改名页面时，两边的 `alt_url` 要同步改。**
+- 英文页 front matter 必须写 `lang: en`，否则会混进中文导航（中文页不用写 `lang`）。
+- 团队页的英文姓名和身份在 `_data/members_en.yaml`；照片、角色（`role`）仍以 `_members/` 里的中文成员文件为准。
+- 英文新闻页 `en/news/index.md` 只放英文标题，链接回中文原文；新增动态时中文、英文两边各加一条。
+- 英文站名、简介在 `_config.yaml` 的 `title-en` / `subtitle-en` / `description-en`，改这里会同时更新所有英文页的顶部标题和浏览器标题。
 
 ## 三、常见操作（照抄改数字即可）
 

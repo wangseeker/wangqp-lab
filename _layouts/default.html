@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-dark="false">
+<html lang="{% if page.lang == 'en' %}en{% else %}zh-CN{% endif %}" data-dark="false">
   {% include head.html %}
   <body>
-    <a class="skip-link" href="#main">跳到主要内容</a>
+    <a class="skip-link" href="#main">{% if page.lang == 'en' %}Skip to main content{% else %}跳到主要内容{% endif %}</a>
     {% include header.html %}
     <main id="main">
       {% include content.html content=content %}

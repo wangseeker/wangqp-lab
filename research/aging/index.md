@@ -1,5 +1,6 @@
 ---
 title: 衰老研究
+alt_url: /en/research/aging/
 ---
 
 # {% include icon.html icon="fa-solid fa-hourglass-half" %}衰老研究

@@ -1,5 +1,6 @@
 ---
 title: 研究成果
+alt_url: /en/publications/
 nav:
   order: 2
   tooltip: 已发表文章与专利

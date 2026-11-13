@@ -1,5 +1,6 @@
 ---
 title: 隐私政策
+alt_url: /en/privacy.html
 permalink: /privacy.html
 ---
 

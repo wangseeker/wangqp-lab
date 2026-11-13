@@ -1,5 +1,6 @@
 ---
 title: 最新动态
+alt_url: /en/news/
 nav:
   order: 4
   tooltip: 课题组新闻与成果

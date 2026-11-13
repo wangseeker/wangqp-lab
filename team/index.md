@@ -1,5 +1,6 @@
 ---
 title: 团队成员
+alt_url: /en/team/
 nav:
   order: 3
   tooltip: 认识我们的团队

@@ -1,3 +1,13 @@
+{% assign lang = page.lang | default: "zh" %}
+{% assign site_title = site.title %}
+{% assign site_subtitle = site.subtitle %}
+{% assign show_subtitle = site.show-subtitle %}
+{% if lang == "en" %}
+  {% assign site_title = site.title-en | default: site.title %}
+  {% assign site_subtitle = site.subtitle-en | default: site.subtitle %}
+  {% assign show_subtitle = true %}
+{% endif %}
+
 {% assign image = page.header | default: site.header %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
@@ -12,11 +22,11 @@
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
-  {% if page.url == "/" %}
+  {% if page.url == "/" or page.url == "/en/" %}
     data-big
   {% endif %}
 >
-  <a href="{{ "/" | relative_url }}" class="home">
+  <a href="{% if lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" class="home">
     {% if logo %}
       <span class="logo">
         {% if svg %}
@@ -28,14 +38,34 @@
     {% endif %}
     {% if site.logo-text != false %}
       <span class="title-text" data-tooltip="Home">
-        {% if site.title and site.show-title != false %}
-          <span class="title">{{ site.title }}</span>
+        {% if site_title and site.show-title != false %}
+          <span class="title">{{ site_title }}</span>
         {% endif %}
-        {% if site.subtitle and site.show-subtitle != false %}
-          <span class="subtitle">{{ site.subtitle }}</span>
+        {% if site_subtitle and show_subtitle != false %}
+          <span class="subtitle">{{ site_subtitle }}</span>
         {% endif %}
       </span>
     {% endif %}
+  </a>
+
+  {% comment %} 语言切换：优先使用页面声明的 alt_url，未声明时回到对应语言首页 {% endcomment %}
+  {% if page.alt_url %}
+    {% assign alt_url = page.alt_url %}
+  {% elsif lang == "en" %}
+    {% assign alt_url = "/" %}
+  {% else %}
+    {% assign alt_url = "/en/" %}
+  {% endif %}
+  <a
+    class="lang-switch"
+    href="{{ alt_url | relative_url }}"
+    {% if lang == "en" %}
+      hreflang="zh-CN" data-tooltip="切换到中文版" lang="zh-CN"
+    {% else %}
+      hreflang="en" data-tooltip="Switch to English" lang="en"
+    {% endif %}
+  >
+    {% if lang == "en" %}中文{% else %}EN{% endif %}
   </a>
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
@@ -47,7 +77,8 @@
       | sort: "nav.order"
     %}
     {% for p in pages %}
-      {% if p.nav %}
+      {% assign p_lang = p.lang | default: "zh" %}
+      {% if p.nav and p_lang == lang %}
         <a
           href="{{ p.dir | relative_url | uri_escape }}"
           data-tooltip="{{ p.nav.tooltip | xml_escape }}"

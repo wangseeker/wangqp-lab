@@ -1,0 +1,49 @@
+# English display data for the /en/ team page.
+# Keeps the canonical member records in _members/ (Chinese) as the single source
+# of truth for photos, roles and slugs; this file only supplies English names/bios.
+
+- role: principal-investigator
+  label: Principal Investigator
+  members:
+    - slug: wang-qiaoping
+      name: Qiao-Ping Wang
+      bio: "Principal Investigator"
+
+- role: postdoc
+  label: Postdoctoral Researchers
+  members:
+    - slug: liu-peiduo
+      name: Pei-Duo Liu
+      bio: "Postdoctoral Researcher"
+
+- role: phd
+  label: PhD Students
+  members:
+    - slug: li-huilin
+      name: Hui-Lin Li
+      bio: "PhD Student (2023)"
+    - slug: shi-runlu
+      name: Run-Lu Shi
+      bio: "PhD Student (2024)"
+    - slug: tian-xin
+      name: Xin Tian
+      bio: "PhD Student (2025)"
+    - slug: wang-xiaolong
+      name: Xiao-Long Wang
+      bio: "PhD Student (2022)"
+
+- role: master
+  label: Master's Students
+  members:
+    - slug: hou-shutong
+      name: Shu-Tong Hou
+      bio: "Master's Student (2025)"
+    - slug: hu-fenglin
+      name: Feng-Lin Hu
+      bio: "Master's Student (2024)"
+    - slug: huang-xiao
+      name: Xiao Huang
+      bio: "Master's Student (2025)"
+    - slug: jia-zimin
+      name: Zi-Wen Jia
+      bio: "Master's Student (2023)"

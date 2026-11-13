@@ -1,6 +1,8 @@
 {% assign image = page.footer | default: site.footer %}
 {% assign dark = page.footer-dark | is_nil: site.footer-dark | is_nil: true %}
 
+{% assign lang = page.lang | default: "zh" %}
+
 <footer
   class="background"
   style="--image: url('{{ image | relative_url | uri_escape }}')"
@@ -25,8 +27,13 @@
 
   <div>
     &copy; {{ site.time | date: "%Y" }}
-    {{ site.title }} ·
-    <a href="{{ "/privacy.html" | relative_url }}">隐私政策</a>
+    {% if lang == "en" %}
+      {{ site.title-en | default: site.title }} ·
+      <a href="{{ "/en/privacy.html" | relative_url }}">Privacy</a>
+    {% else %}
+      {{ site.title }} ·
+      <a href="{{ "/privacy.html" | relative_url }}">隐私政策</a>
+    {% endif %}
   </div>
 
   <input

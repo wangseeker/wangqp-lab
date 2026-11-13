@@ -1,5 +1,6 @@
 ---
 title: 研究方向
+alt_url: /en/research/
 nav:
   order: 1
   tooltip: 肥胖与衰老研究

@@ -120,6 +120,27 @@ nav > a:hover {
   color: var(--primary);
 }
 
+/* 中英文切换按钮 */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border: 1px solid var(--hairline-strong);
+  border-radius: 999px;
+  font-family: var(--heading);
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.lang-switch:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
 /* 移动端折叠：所有 header 共用（含首页 data-big） */
 @mixin nav-collapse {
   @media (max-width: $collapse) {
@@ -224,4 +245,19 @@ header[data-big] {
   }
 
   @include nav-collapse;
+}
+
+/* 移动端压缩语言切换按钮，避免挤压站名 */
+@media (max-width: 700px) {
+  .lang-switch {
+    padding: 4px 9px;
+    font-size: 0.78rem;
+  }
+}
+
+/* 中间宽度：内页压缩站名，副标题在窄屏隐藏，保证导航单行 */
+@media (max-width: 1000px) {
+  header:not([data-big]) .subtitle {
+    display: none;
+  }
 }

@@ -3,6 +3,10 @@ title: 王巧平代谢与衰老实验室
 subtitle: 中山大学药学院 · Wang QP Lab
 show-subtitle: false
 description: 王巧平教授课题组（Laboratory of Metabolism and Aging），主要从事肥胖、味觉、衰老及睡眠等领域的研究，聚焦能量代谢调控与抗衰老药物研发。
+# English site metadata (used by pages with lang: en)
+title-en: Wang QP Lab
+subtitle-en: Laboratory of Metabolism and Aging
+description-en: The Wang QP Lab at Sun Yat-sen University studies obesity, taste, aging and sleep, focusing on energy metabolism and anti-aging drug discovery.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false

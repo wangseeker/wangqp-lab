@@ -1,5 +1,6 @@
 ---
 title: 肥胖研究
+alt_url: /en/research/obesity/
 ---
 
 # {% include icon.html icon="fa-solid fa-dna" %}肥胖研究
