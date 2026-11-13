@@ -30,7 +30,7 @@ His research addresses the core pathological link of energy intake–expenditure
 
 - 2001.09–2005.06　B.Sc., Sichuan Agricultural University (Project 211)
 - 2005.09–2010.12　Ph.D., Sun Yat-sen University
-- 2008.09–2010.09　Joint Ph.D. training, London School of Hygiene & Tropical Medicine (China Scholarship Council)
+- 2008.09–2010.09　Joint Ph.D. training, London School of Hygiene & Tropical Medicine
 
 ## Academic Appointments
 
@@ -109,7 +109,7 @@ We established a cross-species platform — "human cohort → Drosophila functio
 ## Selected Publications (First/Corresponding Author)
 
 <div class="pub-list" markdown="1">
-Deng Y, Liang H, Wan AH, Li X, …, Huang J, Wang Z, Wan G, Wang QP. Dual-system engineered bacteria and dendritic cells enable precise intratumoral IL-12 delivery and potent antitumor immunity. Cell Rep Med. 2026;7:102801. (IF 14.0; CAS Q1 Top, Medicine; \*Co-corresponding author)
+Deng Y, Liang H, Wan AH, Liu C, Yan S, Li J, Xiao M, Zhou Q, Liu R, Zhang Z, Zhang H, Cheng H, Fu C, Yao Q, Fang J, Neumann S, Wang QP, Huang J, Wang Z, Wan G. Dual-system engineered bacteria and dendritic cells enable precise intratumoral IL-12 delivery and potent antitumor immunity. Cell Rep Med. 2026;7:102801. (IF 14.0; CAS Q1 Top, Medicine; \*Co-corresponding author)
 
 Li TT, Zhao XY, Zhang M, Weng ZF, Guo XR, Liu YF, Wang QP, Liang HH. NMI Regulates Adipose Adaptive Thermogenesis Through TLR4/IRF3 Signaling to Promote Obesity. Adv Sci. 2026;e75921. (IF 14.1; CAS Q1 Top, Multidisciplinary; \*Co-corresponding author)
 
@@ -161,7 +161,7 @@ Technology transfer: industry collaboration with Genki Forest and others applies
 ### First or Corresponding Author Papers (30)
 
 <div class="pub-list" markdown="1">
-Deng Y, Liang H, Wan AH, Li X, …, Huang J, Wang Z, Wan G, Wang QP. Dual-system engineered bacteria and dendritic cells enable precise intratumoral IL-12 delivery and potent antitumor immunity. Cell Rep Med. 2026;7:102801. (IF 14.0; CAS Q1 Top, Medicine; \*Co-corresponding author)
+Deng Y, Liang H, Wan AH, Liu C, Yan S, Li J, Xiao M, Zhou Q, Liu R, Zhang Z, Zhang H, Cheng H, Fu C, Yao Q, Fang J, Neumann S, Wang QP, Huang J, Wang Z, Wan G. Dual-system engineered bacteria and dendritic cells enable precise intratumoral IL-12 delivery and potent antitumor immunity. Cell Rep Med. 2026;7:102801. (IF 14.0; CAS Q1 Top, Medicine; \*Co-corresponding author)
 
 Li TT, Zhao XY, Zhang M, Weng ZF, Guo XR, Liu YF, Wang QP, Liang HH. NMI Regulates Adipose Adaptive Thermogenesis Through TLR4/IRF3 Signaling to Promote Obesity. Adv Sci. 2026;e75921. (IF 14.1; CAS Q1 Top, Multidisciplinary; \*Co-corresponding author)
 
@@ -253,7 +253,7 @@ Wahl D, Solon-Biet SM, Wang QP, Wali JA, Pulpitel T, Clark X, Raubenheimer D, Se
 
 Yang G, Humphrey SJ, Murashige DS, Francis D, Wang QP, Cooke KC, Neely GG,James DE. RagC Phosphorylation Autoregulates mTOR Complex. EMBO 2018 DOI: 10.15252/embj.201899548.
 
-Oyston LJ, Lin YQ, Khuong, TM, Wang QP, Lau MT, Clark T and Neely GG. Neuronal Lamin regulates motor circuit integrity and controls motor function and lifespan. Cell Stress 2018, Vol. 2, No. 9, pp. 225 - 232; doi: 10.15698/cst2018.09.152
+Oyston LJ, Lin YQ, Khuong TM, Wang QP, Lau MT, Clark T and Neely GG. Neuronal Lamin regulates motor circuit integrity and controls motor function and lifespan. Cell Stress 2018, Vol. 2, No. 9, pp. 225 - 232; doi: 10.15698/cst2018.09.152
 
 Lau MT, Lin YQ, Kisling S, Cotterell J, Wilson YA, Wang QP, Khuong TM, Bakhshi N, Cole TA, Oyston LJ, Cole AR, Neely GG. A simple high throughput assay to evaluate water consumption in the fruit fly. Sci Rep. 2017 Dec 1;7(1):16786. doi: 10.1038/s41598-017-16849-6.
 

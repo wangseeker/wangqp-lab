@@ -21,7 +21,7 @@ nav:
 ### 代表性论文（第一/通讯作者）
 
 <div class="pub-list" markdown="1">
-Deng Y, Liang H, Wan AH, Li X, …, Huang J, Wang Z, Wan G, Wang QP. Dual-system engineered bacteria and dendritic cells enable precise intratumoral IL-12 delivery and potent antitumor immunity. Cell Rep Med. 2026;7:102801.（IF:14.0，中科院医学1区Top，*共同通讯）
+Deng Y, Liang H, Wan AH, Liu C, Yan S, Li J, Xiao M, Zhou Q, Liu R, Zhang Z, Zhang H, Cheng H, Fu C, Yao Q, Fang J, Neumann S, Wang QP, Huang J, Wang Z, Wan G. Dual-system engineered bacteria and dendritic cells enable precise intratumoral IL-12 delivery and potent antitumor immunity. Cell Rep Med. 2026;7:102801.（IF:14.0，中科院医学1区Top，*共同通讯）
 
 Li TT, Zhao XY, Zhang M, Weng ZF, Guo XR, Liu YF, Wang QP, Liang HH. NMI Regulates Adipose Adaptive Thermogenesis Through TLR4/IRF3 Signaling to Promote Obesity. Adv Sci. 2026;e75921.（IF:14.1，中科院综合1区Top，*共同通讯）
 
@@ -113,7 +113,7 @@ Wahl D, Solon-Biet SM, Wang QP, Wali JA, Pulpitel T, Clark X, Raubenheimer D, Se
 
 Yang G, Humphrey SJ, Murashige DS, Francis D, Wang QP, Cooke KC, Neely GG,James DE. RagC Phosphorylation Autoregulates mTOR Complex. EMBO 2018 DOI: 10.15252/embj.201899548.
 
-Oyston LJ, Lin YQ, Khuong, TM, Wang QP, Lau MT, Clark T and Neely GG. Neuronal Lamin regulates motor circuit integrity and controls motor function and lifespan. Cell Stress 2018, Vol. 2, No. 9, pp. 225 - 232; doi: 10.15698/cst2018.09.152
+Oyston LJ, Lin YQ, Khuong TM, Wang QP, Lau MT, Clark T and Neely GG. Neuronal Lamin regulates motor circuit integrity and controls motor function and lifespan. Cell Stress 2018, Vol. 2, No. 9, pp. 225 - 232; doi: 10.15698/cst2018.09.152
 
 Lau MT, Lin YQ, Kisling S, Cotterell J, Wilson YA, Wang QP, Khuong TM, Bakhshi N, Cole TA, Oyston LJ, Cole AR, Neely GG. A simple high throughput assay to evaluate water consumption in the fruit fly. Sci Rep. 2017 Dec 1;7(1):16786. doi: 10.1038/s41598-017-16849-6.
 
