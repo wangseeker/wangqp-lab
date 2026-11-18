@@ -1,6 +1,6 @@
 ---
 name: 田欣
-image: images/photo.jpg
+image: images/tian-xin.jpg
 role: phd
 affiliation: 中山大学药学院
 aliases:
