@@ -51,5 +51,35 @@
     grid-template-columns: 1fr;
   }
 }
+.media-cover-wrap {
+  position: relative;
+  display: block;
+  margin: -18px -18px 10px;
+  overflow: hidden;
+}
+
+.media-cover {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.media-play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2.2rem;
+  background: rgba(0, 0, 0, 0.2);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+  transition: background var(--transition);
+}
+
+.media-card:hover .media-play {
+  background: rgba(0, 0, 0, 0.32);
+}
 
 /*# sourceMappingURL=media.css.map */
