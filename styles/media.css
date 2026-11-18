@@ -82,4 +82,33 @@
   background: rgba(0, 0, 0, 0.32);
 }
 
+.media-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.media-item .media-card {
+  flex: 1;
+}
+
+.media-pdf {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.media-pdf:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
 /*# sourceMappingURL=media.css.map */
