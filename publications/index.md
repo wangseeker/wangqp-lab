@@ -8,6 +8,24 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-book-open" %}研究成果
 
+课题组累计发表论文 **50 余篇**，其中以第一或通讯作者（含共同）发表 **25 篇**；获授权及实审专利 **5 项**，Google Scholar 引用 **4579** 次。研究覆盖肥胖、味觉、衰老、解毒药物与代谢性疾病。
+
+<div class="stat-row">
+  <div class="stat"><strong>50+</strong><span>已发表论文</span></div>
+  <div class="stat"><strong>25</strong><span>第一/通讯作者</span></div>
+  <div class="stat"><strong>5</strong><span>授权及实审专利</span></div>
+  <div class="stat"><strong>4579</strong><span>Google Scholar 引用</span></div>
+</div>
+
+## 研究亮点
+
+<div class="highlight-grid">
+<div class="highlight-card"><span class="hl-journal">Advanced Science · 2025</span><h3>MTCH2：脂肪产热的“刹车”</h3><p>稳定 Bcl-2、抑制脂质自噬，阻断 UCP1 依赖性产热。</p></div>
+<div class="highlight-card"><span class="hl-journal">Diabetologia · 2025</span><h3>SEC16B：血糖稳态的关键开关</h3><p>连接摄食行为与胰岛素胞吐，为糖代谢调控提供新入口。</p></div>
+<div class="highlight-card"><span class="hl-journal">Nature Communications · 2023</span><h3>吲哚菁绿：蘑菇中毒的潜在解药</h3><p>CRISPR 筛选结合 AI 药物重定位，锁定 STT3B。</p></div>
+<div class="highlight-card"><span class="hl-journal">Journal of Controlled Release · 2026</span><h3>环状 mRNA-NAMPT：单次注射治疗干性 AMD</h3><p>眼内长效补充 NAD，实现持续神经保护。</p></div>
+</div>
+
 ## 专利
 
 - 王巧平，赵薪苑，刘莹：具有防治肥胖及其相关疾病功效的组合物及其应用（ZL 202111326688.9，授权）

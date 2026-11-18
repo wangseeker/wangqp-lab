@@ -9,6 +9,21 @@ permalink: /en/research/obesity/
 
 Obesity has become a global epidemic and is a major risk factor for hypertension, cardiovascular disease and type 2 diabetes. Despite intensive efforts, effective anti-obesity drugs remain scarce. Using Drosophila and mouse models, we tackle the core question of **energy metabolism regulation** at three levels — gene discovery, mechanistic dissection and translational application.
 
+## Core Questions
+
+- How are energy intake and energy expenditure controlled bidirectionally?
+- What is the neural basis of sweet taste–energy coupling?
+- How can candidate targets become usable anti-obesity drugs?
+
+## Research Pipeline
+
+<div class="pipeline">
+<div class="pipeline-step"><span class="step-num">01</span><strong>Human genetics and GWAS</strong><p>Nominate obesity and metabolic candidate genes</p></div>
+<div class="pipeline-step"><span class="step-num">02</span><strong>Drosophila genome-wide screens</strong><p>RNAi/CRISPR for rapid functional validation</p></div>
+<div class="pipeline-step"><span class="step-num">03</span><strong>Mouse knockout validation</strong><p>Tissue-specific dissection of physiology</p></div>
+<div class="pipeline-step"><span class="step-num">04</span><strong>Mechanism and drugs</strong><p>Pathway dissection and therapeutic intervention</p></div>
+</div>
+
 {% include section.html %}
 
 ## Discovery and Functional Validation of Energy-Metabolism Genes

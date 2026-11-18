@@ -5,7 +5,22 @@ alt_url: /en/research/aging/
 
 # {% include icon.html icon="fa-solid fa-hourglass-half" %}衰老研究
 
-衰老是多种慢性疾病（代谢病、神经退行性疾病、癌症等）的最大风险因素。课题组以果蝇为经典模式生物，结合系统生物学与药物化学手段，围绕**衰老机制解析与抗衰老药物研发**展开研究，形成了"寿命实验系统—NAD通路药物—寿命调控机制"的研究主线。
+衰老是多种慢性疾病（代谢病、神经退行性疾病、癌症等）的最大风险因素。课题组以果蝇为经典模式生物，结合系统生物学与药物化学手段，围绕**衰老机制解析与抗衰老药物研发**展开研究，形成了“寿命实验系统—NAD 通路药物—寿命调控机制”的研究主线。
+
+## 核心科学问题
+
+- 寿命与健康寿命由哪些通路调控？
+- 如何提高寿命实验的效率与规模？
+- 如何把 NAD 通路转化为组织特异、可持续的药物？
+
+## 技术路线
+
+<div class="pipeline">
+<div class="pipeline-step"><span class="step-num">01</span><strong>寿命实验系统</strong><p>3D 打印 + 计算机视觉，效率提升 17 倍</p></div>
+<div class="pipeline-step"><span class="step-num">02</span><strong>NAD 通路药物</strong><p>小分子与环状 mRNA-LNP</p></div>
+<div class="pipeline-step"><span class="step-num">03</span><strong>机制解析</strong><p>mTORC1、神经元衰老</p></div>
+<div class="pipeline-step"><span class="step-num">04</span><strong>转化应用</strong><p>干性 AMD 等年龄相关疾病</p></div>
+</div>
 
 {% include section.html %}
 

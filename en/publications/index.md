@@ -10,6 +10,24 @@ permalink: /en/publications/
 
 # {% include icon.html icon="fa-solid fa-book-open" %}Publications
 
+The laboratory has published **more than 50 papers**, **25** of them as first or corresponding author (including co-first/co-corresponding), with **5** patents granted or pending and **4,579** Google Scholar citations. Our work spans obesity, taste, aging, antidote discovery and metabolic disease.
+
+<div class="stat-row">
+  <div class="stat"><strong>50+</strong><span>Peer-reviewed papers</span></div>
+  <div class="stat"><strong>25</strong><span>First/corresponding author</span></div>
+  <div class="stat"><strong>5</strong><span>Patents granted or pending</span></div>
+  <div class="stat"><strong>4,579</strong><span>Google Scholar citations</span></div>
+</div>
+
+## Research Highlights
+
+<div class="highlight-grid">
+<div class="highlight-card"><span class="hl-journal">Advanced Science · 2025</span><h3>MTCH2: the “brake” on adipose thermogenesis</h3><p>Stabilizes Bcl-2 and blocks lipophagy, suppressing UCP1-dependent thermogenesis.</p></div>
+<div class="highlight-card"><span class="hl-journal">Diabetologia · 2025</span><h3>SEC16B: a key switch for glucose homeostasis</h3><p>Links feeding behavior to insulin exocytosis and systemic glucose control.</p></div>
+<div class="highlight-card"><span class="hl-journal">Nature Communications · 2023</span><h3>Indocyanine green: a potential antidote for mushroom poisoning</h3><p>CRISPR screening plus AI drug repurposing identifies STT3B.</p></div>
+<div class="highlight-card"><span class="hl-journal">Journal of Controlled Release · 2026</span><h3>Circular mRNA-NAMPT: one injection for dry AMD</h3><p>Sustained, tissue-specific NAD supplementation in the eye.</p></div>
+</div>
+
 ## Patents
 
 - Qiao-Ping Wang, Xin-Yuan Zhao, Ying Liu: Composition with efficacy in preventing and treating obesity and related diseases (ZL 202111326688.9, granted)

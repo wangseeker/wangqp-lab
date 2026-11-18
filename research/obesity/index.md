@@ -5,7 +5,22 @@ alt_url: /en/research/obesity/
 
 # {% include icon.html icon="fa-solid fa-dna" %}肥胖研究
 
-肥胖已成为全球普遍现象，是高血压、心血管疾病及2型糖尿病的主要风险因素。尽管已为肥胖治疗付出巨大努力，但市场上有效的肥胖治疗药物依然匮乏。课题组以果蝇为模式生物结合小鼠模型，围绕**能量代谢调控**这一核心科学问题，从"基因发现—机制解析—转化应用"三个层次系统性推进肥胖研究。
+肥胖已成为全球普遍现象，是高血压、心血管疾病及2型糖尿病的主要风险因素。尽管已为肥胖治疗付出巨大努力，但市场上有效的肥胖治疗药物依然匮乏。课题组以果蝇为模式生物结合小鼠模型，围绕**能量代谢调控**这一核心科学问题，从“基因发现—机制解析—转化应用”三个层次系统性推进肥胖研究。
+
+## 核心科学问题
+
+- 能量摄入与能量消耗如何被双向调控？
+- 甜味—能量偶联的神经基础是什么？
+- 如何把候选靶点转化为可用的减肥药物？
+
+## 技术路线
+
+<div class="pipeline">
+<div class="pipeline-step"><span class="step-num">01</span><strong>人群与 GWAS</strong><p>锁定肥胖与代谢候选基因</p></div>
+<div class="pipeline-step"><span class="step-num">02</span><strong>果蝇全基因组筛选</strong><p>RNAi/CRISPR 快速功能验证</p></div>
+<div class="pipeline-step"><span class="step-num">03</span><strong>小鼠敲除验证</strong><p>组织特异解析生理功能</p></div>
+<div class="pipeline-step"><span class="step-num">04</span><strong>机制与药物</strong><p>解析通路并开发干预策略</p></div>
+</div>
 
 {% include section.html %}
 

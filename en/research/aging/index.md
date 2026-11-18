@@ -9,6 +9,21 @@ permalink: /en/research/aging/
 
 Aging is the single largest risk factor for chronic diseases including metabolic disorders, neurodegenerative diseases and cancer. Using Drosophila as a classical model organism, combined with systems biology and medicinal chemistry, we study **the mechanisms of aging and the development of anti-aging drugs**, organized along three lines: lifespan experiment systems, NAD-pathway drugs, and mechanisms of lifespan regulation.
 
+## Core Questions
+
+- Which pathways control lifespan and healthspan?
+- How can lifespan experiments be made faster and larger?
+- How can the NAD pathway become tissue-specific, durable drugs?
+
+## Research Pipeline
+
+<div class="pipeline">
+<div class="pipeline-step"><span class="step-num">01</span><strong>Lifespan system</strong><p>3D printing + computer vision, 17-fold efficiency</p></div>
+<div class="pipeline-step"><span class="step-num">02</span><strong>NAD-pathway drugs</strong><p>Small molecules and circular mRNA-LNP</p></div>
+<div class="pipeline-step"><span class="step-num">03</span><strong>Mechanism</strong><p>mTORC1 and neuronal aging</p></div>
+<div class="pipeline-step"><span class="step-num">04</span><strong>Translation</strong><p>Dry AMD and other age-related diseases</p></div>
+</div>
+
 {% include section.html %}
 
 ## Drosophila Anti-Aging Experiment System

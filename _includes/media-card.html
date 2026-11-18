@@ -4,7 +4,7 @@
 <a class="media-card" href="{{ item.url }}" target="_blank" rel="noopener">
 {% if item.image %}
 <span class="media-cover-wrap">
-<img class="media-cover" src="{{ item.image | relative_url }}" alt="{% if lang == 'en' %}{{ item.title_en | default: item.title }}{% else %}{{ item.title }}{% endif %}" loading="lazy">
+<img class="media-cover" src="{{ item.image | relative_url }}" alt="{% if lang == 'en' %}{{ item.title_en | default: item.title }}{% else %}{{ item.title }}{% endif %}" loading="eager">
 {% if item.type == "video" %}<span class="media-play" aria-hidden="true">▶</span>{% endif %}
 </span>
 {% endif %}
