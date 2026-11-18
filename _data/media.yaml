@@ -1,3 +1,7 @@
+# Media coverage and outreach.
+# Order here is the curated order used on the homepage (first 6 shown).
+# The /media/ page sorts the same data by date (newest first).
+
 - outlet: 新华社
   outlet_en: Xinhua News Agency
   title: "《生活有点甜，控糖有科学》公益科普视频"
@@ -7,8 +11,37 @@
   type: video
   image: images/media/xinhua-tang-video.jpg
 
-# Media coverage and outreach
-# title_en / outlet_en are used on the English homepage.
+- outlet: Nature News
+  outlet_en: Nature News
+  title: "Deadly mushroom poison might now have an antidote — with help from CRISPR"
+  title_en: "Deadly mushroom poison might now have an antidote — with help from CRISPR"
+  date: 2023-05-16
+  url: https://www.nature.com/articles/d41586-023-01630-9
+  type: article
+
+- outlet: The New York Times
+  outlet_en: The New York Times
+  title: "In Search of an Antidote for Poisonous Mushrooms"
+  title_en: "In Search of an Antidote for Poisonous Mushrooms"
+  date: 2023-05-16
+  url: https://www.nytimes.com/2023/05/16/science/death-cap-mushroom.html
+  type: article
+
+- outlet: 南华早报
+  outlet_en: South China Morning Post
+  title: "Scientists may have found an antidote for the world's deadliest mushroom"
+  title_en: "Scientists may have found an antidote for the world's deadliest mushroom"
+  date: 2023-05-17
+  url: https://www.scmp.com/news/china/science/article/3220963/scientists-may-have-found-antidote-worlds-deadliest-mushroom
+  type: article
+
+- outlet: 科技日报
+  outlet_en: Science and Technology Daily
+  title: "误食剧毒蘑菇或将有解药"
+  title_en: "A potential antidote for death cap mushroom poisoning"
+  date: 2023-05-24
+  url: https://paper.sciencenet.cn/htmlnews/2023/5/501321.shtm
+  type: article
 
 - outlet: 光明网
   outlet_en: Guangming Online
@@ -16,6 +49,14 @@
   title_en: "An antidote for the 'king of poisons'? Promising results for death cap mushroom poisoning"
   date: 2023-05-19
   url: https://baijiahao.baidu.com/s?id=1766287036488333755
+  type: article
+
+- outlet: Nature Asia
+  outlet_en: Nature Asia
+  title: "A potential antidote for death cap mushroom poisoning"
+  title_en: "A potential antidote for death cap mushroom poisoning"
+  date: 2023-05-17
+  url: https://www.natureasia.com/ja-jp/life-sci/research/14493
   type: article
 
 - outlet: 羊城晚报
@@ -34,12 +75,20 @@
   url: https://www.sohu.com/a/676852876_100116740
   type: article
 
-- outlet: Nature Asia
-  outlet_en: Nature Asia
-  title: "A potential antidote for death cap mushroom poisoning"
-  title_en: "A potential antidote for death cap mushroom poisoning"
+- outlet: CGTN
+  outlet_en: CGTN
+  title: "Chinese scientists find possible antidote for world's most poisonous mushroom, death cap"
+  title_en: "Chinese scientists find possible antidote for world's most poisonous mushroom, death cap"
+  date: 2023-05-18
+  url: https://newseu.cgtn.com/news/2023-05-18/China-finds-possible-antidote-for-world-s-most-poisonous-mushroom-1jT7l0RDVao/index.html
+  type: article
+
+- outlet: The Guardian
+  outlet_en: The Guardian
+  title: "Potential antidote found for toxin in world's most poisonous mushroom"
+  title_en: "Potential antidote found for toxin in world's most poisonous mushroom"
   date: 2023-05-17
-  url: https://www.natureasia.com/ja-jp/life-sci/research/14493
+  url: https://www.theguardian.com/australia-news/2023/may/17/potential-antidote-found-for-toxin-in-worlds-most-poisonous-mushroom
   type: article
 
 - outlet: 动脉橙

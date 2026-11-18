@@ -3,7 +3,7 @@ title: Contact
 lang: en
 alt_url: /contact/
 nav:
-  order: 5
+  order: 6
   tooltip: Email and address
 permalink: /en/contact/
 ---

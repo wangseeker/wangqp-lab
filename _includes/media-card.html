@@ -1,0 +1,13 @@
+{% assign item = include.item %}
+{% assign lang = page.lang | default: "zh" %}
+<a class="media-card" href="{{ item.url }}" target="_blank" rel="noopener">
+{% if item.image %}
+<span class="media-cover-wrap">
+<img class="media-cover" src="{{ item.image | relative_url }}" alt="{% if lang == 'en' %}{{ item.title_en | default: item.title }}{% else %}{{ item.title }}{% endif %}" loading="lazy">
+{% if item.type == "video" %}<span class="media-play" aria-hidden="true">▶</span>{% endif %}
+</span>
+{% endif %}
+<span class="media-outlet">{% if lang == "en" %}{{ item.outlet_en | default: item.outlet }}{% else %}{{ item.outlet }}{% endif %}</span>
+<span class="media-title">{% if lang == "en" %}{{ item.title_en | default: item.title }}{% else %}{{ item.title }}{% endif %}</span>
+<span class="media-meta">{{ item.date }}{% if item.type == "video" %} · {% if lang == "en" %}Video (WeChat Channels){% else %}视频（微信视频号）{% endif %}{% endif %}</span>
+</a>

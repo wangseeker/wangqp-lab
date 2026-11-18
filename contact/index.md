@@ -2,7 +2,7 @@
 title: 联系我们
 alt_url: /en/contact/
 nav:
-  order: 5
+  order: 6
   tooltip: 邮箱与地址
 ---
 

@@ -86,20 +86,19 @@ Our work has been published as first or corresponding author in *Cell Metabolism
 ## Media & Outreach
 
 <div class="media-grid">
-{% for item in site.data.media %}
-<a class="media-card" href="{{ item.url }}" target="_blank" rel="noopener">
-{% if item.image %}
-<span class="media-cover-wrap">
-<img class="media-cover" src="{{ item.image | relative_url }}" alt="{{ item.title_en | default: item.title }}" loading="lazy">
-{% if item.type == "video" %}<span class="media-play" aria-hidden="true">▶</span>{% endif %}
-</span>
-{% endif %}
-<span class="media-outlet">{{ item.outlet_en | default: item.outlet }}</span>
-<span class="media-title">{{ item.title_en | default: item.title }}</span>
-<span class="media-meta">{{ item.date }}{% if item.type == "video" %} · Video (WeChat Channels){% endif %}</span>
-</a>
+{% for item in site.data.media limit:6 %}
+{% include media-card.html item=item %}
 {% endfor %}
 </div>
+
+{%
+  include button.html
+  link="en/media"
+  text="All media coverage"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
 
 {% include section.html %}
 
