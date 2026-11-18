@@ -26,6 +26,7 @@
   date: 2023-05-16
   url: https://www.nytimes.com/2023/05/16/science/death-cap-mushroom.html
   type: article
+  pdf: assets/media/nyt-20230516-death-cap.pdf
 
 - outlet: 南华早报
   outlet_en: South China Morning Post
@@ -34,6 +35,7 @@
   date: 2023-05-17
   url: https://www.scmp.com/news/china/science/article/3220963/scientists-may-have-found-antidote-worlds-deadliest-mushroom
   type: article
+  pdf: assets/media/scmp-20230519-china-a6.pdf
 
 - outlet: 科技日报
   outlet_en: Science and Technology Daily
@@ -42,6 +44,7 @@
   date: 2023-05-24
   url: https://paper.sciencenet.cn/htmlnews/2023/5/501321.shtm
   type: article
+  pdf: assets/media/stdaily-20230524-p08.pdf
 
 - outlet: 光明网
   outlet_en: Guangming Online
