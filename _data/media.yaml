@@ -1,0 +1,42 @@
+# Media coverage and outreach
+# title_en / outlet_en are used on the English homepage.
+
+- outlet: 光明网
+  outlet_en: Guangming Online
+  title: "“毒王”蘑菇，解药有望！"
+  title_en: "An antidote for the 'king of poisons'? Promising results for death cap mushroom poisoning"
+  date: 2023-05-19
+  url: https://baijiahao.baidu.com/s?id=1766287036488333755
+  type: article
+
+- outlet: 羊城晚报
+  outlet_en: Yangcheng Evening News
+  title: "最容易吃死人的剧毒蘑菇，解药有望！中大研究团队发布重磅成果"
+  title_en: "The deadliest mushroom may soon have an antidote: Sun Yat-sen University team reports a major result"
+  date: 2023-05-18
+  url: https://news.southcn.com/node_cde6f9580c/c085b8f06d.shtml
+  type: article
+
+- outlet: 南方日报 · 南方+
+  outlet_en: Nanfang Daily · Nanfang Plus
+  title: "中大新研究：这种剧毒“白伞伞”，或可用一种染料解毒"
+  title_en: "New study: a common dye may treat poisoning by the deadly 'white umbrella' mushroom"
+  date: 2023-05-18
+  url: https://www.sohu.com/a/676852876_100116740
+  type: article
+
+- outlet: Nature Asia
+  outlet_en: Nature Asia
+  title: "A potential antidote for death cap mushroom poisoning"
+  title_en: "A potential antidote for death cap mushroom poisoning"
+  date: 2023-05-17
+  url: https://www.natureasia.com/ja-jp/life-sci/research/14493
+  type: article
+
+- outlet: 动脉橙
+  outlet_en: VBData
+  title: "Adv Sci：王巧平/Greg Neely/石雁川团队合作揭示 MTCH2 是新的脂肪组织产热和能量平衡调节因子"
+  title_en: "MTCH2 identified as a new regulator of adipose thermogenesis and energy balance"
+  date: 2025-03-27
+  url: https://www.vbdata.cn/newsDetail/48f3f5240ae411f0b7af00163e034e34
+  type: article

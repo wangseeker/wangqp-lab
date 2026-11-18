@@ -83,6 +83,20 @@ Our work has been published as first or corresponding author in *Cell Metabolism
 
 {% include section.html %}
 
+## Media & Outreach
+
+<div class="media-grid">
+{% for item in site.data.media %}
+<a class="media-card" href="{{ item.url }}" target="_blank" rel="noopener">
+<span class="media-outlet">{{ item.outlet_en | default: item.outlet }}</span>
+<span class="media-title">{{ item.title_en | default: item.title }}</span>
+<span class="media-meta">{{ item.date }}{% if item.type == "video" %} · Video{% endif %}</span>
+</a>
+{% endfor %}
+</div>
+
+{% include section.html %}
+
 ## Latest News
 
 <ul class="news-list">

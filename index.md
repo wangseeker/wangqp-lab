@@ -80,6 +80,20 @@ alt_url: /en/
 
 {% include section.html %}
 
+## 媒体报道与科普
+
+<div class="media-grid">
+{% for item in site.data.media %}
+<a class="media-card" href="{{ item.url }}" target="_blank" rel="noopener">
+<span class="media-outlet">{{ item.outlet }}</span>
+<span class="media-title">{{ item.title }}</span>
+<span class="media-meta">{{ item.date }}{% if item.type == "video" %} · 视频{% endif %}</span>
+</a>
+{% endfor %}
+</div>
+
+{% include section.html %}
+
 ## 最新动态
 
 <ul class="news-list">
