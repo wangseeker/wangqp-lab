@@ -1,3 +1,12 @@
+- outlet: 新华社
+  outlet_en: Xinhua News Agency
+  title: "《生活有点甜，控糖有科学》公益科普视频"
+  title_en: "Life Is a Little Sweet: The Science of Sugar Control"
+  date: 2026-11-14
+  url: https://weixin.qq.com/sph/AiB69wtQjl
+  type: video
+  image: images/media/xinhua-tang-video.jpg
+
 # Media coverage and outreach
 # title_en / outlet_en are used on the English homepage.
 

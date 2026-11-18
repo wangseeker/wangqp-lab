@@ -85,9 +85,15 @@ alt_url: /en/
 <div class="media-grid">
 {% for item in site.data.media %}
 <a class="media-card" href="{{ item.url }}" target="_blank" rel="noopener">
+{% if item.image %}
+<span class="media-cover-wrap">
+<img class="media-cover" src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy">
+{% if item.type == "video" %}<span class="media-play" aria-hidden="true">▶</span>{% endif %}
+</span>
+{% endif %}
 <span class="media-outlet">{{ item.outlet }}</span>
 <span class="media-title">{{ item.title }}</span>
-<span class="media-meta">{{ item.date }}{% if item.type == "video" %} · 视频{% endif %}</span>
+<span class="media-meta">{{ item.date }}{% if item.type == "video" %} · 视频（微信视频号）{% endif %}</span>
 </a>
 {% endfor %}
 </div>
