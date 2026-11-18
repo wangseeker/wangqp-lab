@@ -1,6 +1,6 @@
 ---
 name: 黄晓
-image: images/photo.jpg
+image: images/huang-xiao.jpg
 role: master
 affiliation: 中山大学药学院
 aliases:

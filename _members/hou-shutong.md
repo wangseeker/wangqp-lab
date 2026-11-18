@@ -1,6 +1,6 @@
 ---
 name: 侯舒童
-image: images/photo.jpg
+image: images/hou-shutong.jpg
 role: master
 affiliation: 中山大学药学院
 aliases:

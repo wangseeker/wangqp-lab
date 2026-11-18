@@ -1,6 +1,6 @@
 ---
 name: 刘沛铎
-image: images/photo.jpg
+image: images/liu-peiduo.jpg
 role: postdoc
 affiliation: 中山大学药学院
 aliases:

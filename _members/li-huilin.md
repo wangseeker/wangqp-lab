@@ -1,6 +1,6 @@
 ---
 name: 李慧琳
-image: images/photo.jpg
+image: images/li-huilin.jpg
 role: phd
 affiliation: 中山大学药学院
 aliases:

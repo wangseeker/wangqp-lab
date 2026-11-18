@@ -23,3 +23,6 @@ _cite/.cache
 
 # 论文知识库（全文提取，不入库）
 knowledge-base/
+
+# original member photos (not published)
+_source_photos/

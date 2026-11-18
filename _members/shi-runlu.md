@@ -1,6 +1,6 @@
 ---
 name: 石润璐
-image: images/photo.jpg
+image: images/shi-runlu.jpg
 role: phd
 affiliation: 中山大学药学院
 aliases:
