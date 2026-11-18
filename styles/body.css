@@ -7,7 +7,7 @@ body {
   background: radial-gradient(ellipse 55% 45% at 12% -8%, var(--glow-a) 0%, transparent 60%), radial-gradient(ellipse 50% 40% at 90% 110%, var(--glow-b) 0%, transparent 60%), var(--background);
   color: var(--text);
   font-family: var(--body);
-  font-size: 1rem;
+  font-size: 1.0625rem;
   text-align: center;
   line-height: var(--compact);
   -webkit-font-smoothing: antialiased;

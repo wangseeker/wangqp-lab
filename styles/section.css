@@ -1,5 +1,5 @@
 section {
-  padding: 56px max(56px, (100% - 1080px) / 2);
+  padding: 56px max(24px, (100% - 840px) / 2);
   transition: background var(--transition), color var(--transition);
 }
 
@@ -30,6 +30,12 @@ main > section:nth-of-type(odd) {
 
 main > section:nth-of-type(even) {
   background: var(--background-alt);
+}
+
+/* English pages read better with a slightly narrower measure */
+html[lang=en] section:not([data-size=wide]):not([data-size=full]) {
+  padding-left: max(24px, (100% - 760px) / 2);
+  padding-right: max(24px, (100% - 760px) / 2);
 }
 
 /*# sourceMappingURL=section.css.map */
