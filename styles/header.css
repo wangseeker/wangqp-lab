@@ -52,7 +52,7 @@ header a {
 }
 
 .title {
-  font-size: var(--large);
+  font-size: 2rem;
   font-weight: var(--semi-bold);
 }
 
@@ -93,15 +93,15 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 14px;
   font-family: var(--heading);
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 nav > a {
-  padding: 7px 12px;
+  padding: 8px 14px;
   border-radius: 999px;
   font-weight: var(--medium);
 }
@@ -132,7 +132,7 @@ nav > a:hover {
 }
 
 /* 移动端折叠：所有 header 共用（含首页 data-big） */
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
   header:not([data-big]) {
     justify-content: space-between;
     align-items: center;
@@ -247,6 +247,12 @@ header[data-big] {
 @media (max-width: 1000px) {
   header:not([data-big]) .subtitle {
     display: none;
+  }
+}
+/* 窄屏下同步缩小站名，避免 24pt 时换行过多 */
+@media (max-width: 700px) {
+  .title {
+    font-size: var(--large);
   }
 }
 
